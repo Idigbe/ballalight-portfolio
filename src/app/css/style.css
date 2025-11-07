@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    /* Titles ===================================================================================================================== */
+    .text-md {
+        @apply font-semibold text-3xl text-foreground
+    }
+
+    .title {
+        @apply font-semibold text-2xl text-foreground
+    }
+
+    .page-title-md {
+        @apply font-semibold text-[40px] text-foreground
+    }
+
+    .page-title {
+        @apply font-semibold text-[28px] text-foreground
+    }
+
+    .portfolio-title-md {
+        @apply font-semibold text-2xl text-foreground p-0
+    }
+
+    .portfolio-title {
+        @apply font-semibold text-base text-foreground p-0
+    }
+
+    .portfolio-sub-title-md {
+        @apply font-light text-base text-foreground
+    }
+
+    .portfolio-sub-title {
+        @apply font-light text-sm text-foreground
+    }
+
+    .project-main-header-md {
+        @apply font-semibold text-[40px] text-foreground
+    }
+
+    .project-main-header {
+        @apply font-semibold text-[28px] text-foreground
+    }
+
+    .project-main-sub-md {
+        @apply font-light text-base text-foreground
+    }
+
+    .project-main-sub {
+        @apply font-light text-sm text-foreground
+    }
+
+    .project-header-md {
+        @apply font-medium text-4xl text-foreground
+    }
+
+    .project-header {
+        @apply font-medium text-xl text-foreground
+    }
+
+    .project-title-md {
+        @apply font-medium text-xl text-foreground mb-2
+    }
+
+    .project-title {
+        @apply font-medium text-base text-foreground mb-2
+    }
+
+    .project-text-md {
+        @apply font-normal text-base text-foreground mb-2
+    }
+
+    .project-text {
+        @apply font-normal text-sm text-foreground mb-2
+    }
+
+    /* Header ===================================================================================================================== */
+
+    /* Footer ===================================================================================================================== */
+
+    /* Articles ===================================================================================================================== */
+
+    /* buttons ===================================================================================================================== */
+
+    .btn-primary-md {
+        @apply py-2 px-4 bg-primary border w-full md:w-fit justify-center items-center text-white font-medium text-base hover:bg-[#e69797] rounded-lg text-center inline-flex transition-all duration-200 delay-0 ease-linear;
+    }
+
+    .btn-primary {
+        @apply py-2 px-4 bg-primary border w-full md:w-fit justify-center items-center text-white font-medium text-sm hover:bg-[#e69797] rounded-lg text-center inline-flex transition-all duration-500 delay-0 ease-linear;
+    }
+
+    .btn-primary-outline-md {
+        @apply py-2 px-4 bg-transparent border w-full md:w-fit justify-center items-center text-primary font-normal text-base rounded-lg text-center inline-flex transition-all duration-500 delay-0 ease-linear;
+    }
+
+    .btn-primary-outline {
+        @apply py-2 px-4 bg-transparent border w-full md:w-fit justify-center items-center text-primary font-normal text-sm rounded-lg text-center inline-flex transition-all duration-500 delay-0 ease-linear;
+    }
+
+    .btn-dark-outline-md {
+        @apply py-2 px-4 bg-transparent border border-foreground items-center text-foreground font-normal text-base rounded-lg text-center transition-all duration-500 delay-0 ease-linear;
+    }
+
+    .btn-dark-outline {
+        @apply py-2 px-4 bg-transparent border border-foreground items-center text-foreground font-normal text-sm rounded-lg text-center transition-all duration-500 delay-0 ease-linear;
+    }
+
+    .btn-icon-primary-md {
+        @apply py-2 px-4 bg-transparent text-primary font-medium text-base hover:text-lg text-center inline-flex items-center transition-all duration-500 delay-0 ease-linear;
+    }
+
+    .btn-icon-primary {
+        @apply py-2 px-4 bg-transparent text-primary font-medium text-sm hover:text-base text-center inline-flex items-center transition-all duration-500 delay-0 ease-linear;
+    }
+
+    .btn-icon-dark-md {
+        @apply py-2 px-4 bg-transparent text-foreground font-medium text-base hover:text-lg text-center inline-flex items-center transition-all duration-500 delay-0 ease-linear;
+    }
+
+    .btn-icon-dark {
+        @apply py-2 px-4 bg-transparent text-foreground font-medium text-sm hover:text-base text-center inline-flex items-center transition-all duration-500 delay-0 ease-linear;
+    }
+
+    .dark-outline-md {
+        @apply py-2 px-4 bg-transparent border border-foreground items-center text-foreground font-normal text-base rounded-lg text-center transition-all duration-500 delay-0 ease-linear;
+    }
+
+    .dark-outline {
+        @apply py-2 px-4 bg-transparent border border-foreground items-center text-foreground font-normal text-sm rounded-lg text-center transition-all duration-500 delay-0 ease-linear;
+    }
+
+    /* Gallery ===================================================================================================================== */
+    .gallery-layout {
+        @apply p-1 rounded-sm
+    }
+
+    .gallery-images {
+        @apply w-full h-full
+    }
+
+
+    /* End ===================================================================================================================== */
+}

@@ -2,28 +2,109 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background: hsla(0, 0%, 100%, 1);
+  --background-end: hsla(0, 0%, 100%, 1);
+  --foreground: #1d1d1f;
+
+  --card: hsla(0, 0%, 100%, 1);
+  --card-foreground: #1d1d1f;
+  --popover: hsla(0, 0%, 100%, 1);
+  --popover-foreground: #1d1d1f;
+  --primary: hsla(0, 74%, 71%, 1);
+  --primary-foreground: hsla(0, 74%, 71%, 1);
+  --secondary: hsla(210, 40%, 96.1%, 0);
+  --secondary-foreground: hsla(222.2, 47.4%, 11.2%, 1);
+  --muted: hsla(210, 40%, 96.1%, 1);
+  --muted-foreground: hsla(215, 16.3%, 46.9%, 1);
+  --accent: hsla(210, 40%, 96.1%, 1);
+  --accent-foreground: hsla(222.2, 47.4%, 11.2%, 1);
+  --destructive: hsla(0, 84.2%, 60.2%, 1);
+  --destructive-foreground: hsla(210, 40%, 98%, 1);
+  --border: hsla(214.3, 31.8%, 91.4%, 1);
+  --input: hsla(214.3, 31.8%, 91.4%, 1);
+  --ring: hsla(221.2, 83.2%, 53.3%, 1);
+  --radius: 2rem;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: light) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background: hsla(0, 0%, 100%, 1);
+    --background-end: hsla(0, 0%, 100%, 1);
+    --foreground: #1d1d1f;
+
+    --card: hsla(0, 0%, 100%, 1);
+    --card-foreground: #1d1d1f;
+    --popover: hsla(0, 0%, 100%, 1);
+    --popover-foreground: #1d1d1f;
+    --primary: hsla(0, 74%, 71%, 1);
+    --primary-foreground: hsla(0, 74%, 71%, 1);
+    --secondary: hsla(210, 40%, 96.1%, 0);
+    --secondary-foreground: hsla(222.2, 47.4%, 11.2%, 1);
+    --muted: hsla(210, 40%, 96.1%, 1);
+    --muted-foreground: hsla(215, 16.3%, 46.9%, 1);
+    --accent: hsla(210, 40%, 96.1%, 1);
+    --accent-foreground: hsla(222.2, 47.4%, 11.2%, 1);
+    --destructive: hsla(0, 84.2%, 60.2%, 1);
+    --destructive-foreground: hsla(210, 40%, 98%, 1);
+    --border: hsla(214.3, 31.8%, 91.4%, 1);
+    --input: hsla(214.3, 31.8%, 91.4%, 1);
+    --ring: hsla(221.2, 83.2%, 53.3%, 1);
+    --radius: 2rem;
   }
 }
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: rgb(0, 0, 0);
+    --background-end: rgb(1, 1, 1);
+    --foreground: hsl(210, 40%, 98%);
+    --card: #1d1d1f;
+    --card-foreground: hsla(210, 40%, 98%, 1);
+    --popover: #1d1d1f;
+    --popover-foreground: hsla(210, 40%, 98%, 1);
+    --primary: hsla(0, 74%, 71%, 0.8);
+    --primary-foreground: hsla(0, 74%, 71%, 1);
+    --secondary: hsla(217.2, 32.6%, 17.5%, 1);
+    --secondary-foreground: hsla(210, 40%, 98%, 1);
+    --muted: hsla(217.2, 32.6%, 17.5%, 1);
+    --muted-foreground: hsla(215, 20.2%, 65.1%, 1);
+    --accent: hsla(217.2, 32.6%, 17.5%, 1);
+    --accent-foreground: hsla(210, 40%, 98%, 1);
+    --destructive: hsla(0, 62.8%, 30.6%, 1);
+    --destructive-foreground: hsla(210, 40%, 98%, 1);
+    --border: hsla(217.2, 32.6%, 17.5%, 1);
+    --input: hsla(217.2, 32.6%, 17.5%, 1);
+    --ring: hsla(224.3, 76.3%, 48%, 1);
+  }
+} */
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  font-family: var(--font-bricolage);
+  color: var(--foreground);
+  background: var(--background);
+  /* background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      var(--background-end)) var(--background); */
+}
+
+/* @layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+} */
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: hsla(0, 74%, 71%, 0.8);
+  transform-origin: 0%;
 }
 
 @layer utilities {
