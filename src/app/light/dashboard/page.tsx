@@ -159,7 +159,7 @@ export default function AdminDashboard() {
                     <h3 className="font-bold mb-2 text-blue-400">💡 Tip: Drag and Drop to Reorder</h3>
                     <p className="text-gray-400 leading-relaxed">
                         The order here matches the order on your <a href="/work" className="text-blue-400 underline" target="_blank">Work page</a>. 
-                        Simply drag rows to rearrange them. Click "Publish Changes" to update the live site via GitHub.
+                        Simply drag rows to rearrange them. Click &quot;Publish Changes&quot; to update the live site via GitHub.
                     </p>
                 </div>
             </main>

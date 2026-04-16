@@ -4,6 +4,7 @@ const nextConfig = {
     reactStrictMode: true,
     optimizeFonts: true,
     images: {
+        unoptimized: true,
         minimumCacheTTL: 15000000,
     },
 };

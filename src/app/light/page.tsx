@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -29,7 +29,7 @@ export default function AdminLoginPage() {
         }
     };
 
-    const handleSubmit = async () => {
+    const handleSubmit = useCallback(async () => {
         const fullPin = pin.join("");
         if (fullPin.length !== 6) return;
 
@@ -47,13 +47,13 @@ export default function AdminLoginPage() {
             inputRefs.current[0]?.focus();
         }
         setIsLoading(false);
-    };
+    }, [pin, router]);
 
     useEffect(() => {
         if (pin.every(digit => digit !== "")) {
             handleSubmit();
         }
-    }, [pin]);
+    }, [pin, handleSubmit]);
 
     return (
         <div className="min-h-screen flex items-center justify-center bg-[#0a0a0a] text-white">
@@ -70,7 +70,7 @@ export default function AdminLoginPage() {
                         {pin.map((digit, i) => (
                             <input
                                 key={i}
-                                ref={(el) => (inputRefs.current[i] = el)}
+                                ref={(el) => { inputRefs.current[i] = el; }}
                                 type="text"
                                 inputMode="numeric"
                                 maxLength={1}
@@ -87,9 +87,9 @@ export default function AdminLoginPage() {
                     <AnimatePresence>
                         {error && (
                             <motion.p
-                                initial={{ opacity: 0, h: 0 }}
-                                animate={{ opacity: 1, h: "auto" }}
-                                exit={{ opacity: 0, h: 0 }}
+                                initial={{ opacity: 0, height: 0 }}
+                                animate={{ opacity: 1, height: "auto" }}
+                                exit={{ opacity: 0, height: 0 }}
                                 className="text-red-500 mb-6 text-sm font-medium"
                             >
                                 Invalid PIN. Please try again.

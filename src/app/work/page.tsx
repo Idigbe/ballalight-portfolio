@@ -28,7 +28,5 @@ const Portfolio = () => {
         </article>
     );
 }
-  );
-}
 
 export default Portfolio;
