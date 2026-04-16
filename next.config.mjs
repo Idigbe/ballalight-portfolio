@@ -7,6 +7,8 @@ const nextConfig = {
         unoptimized: true,
         minimumCacheTTL: 15000000,
     },
+    trailingSlash: true,
+    transpilePackages: ["@material-tailwind/react"],
 };
 
 export default nextConfig;

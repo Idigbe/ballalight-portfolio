@@ -41,6 +41,7 @@ export default function VerifyPermission({ onVerify }: { onVerify: (data: { veri
                 please contact me
             </div>
             <div className="relative flex w-full max-w-[24rem]">
+                {/* @ts-ignore */}
                 <Input
                     type={showPassword ? 'text' : 'password'}
                     label="Enter password"
@@ -51,13 +52,12 @@ export default function VerifyPermission({ onVerify }: { onVerify: (data: { veri
                     containerProps={{
                         className: "min-w-0 ",
                     }}
-                    onPointerEnterCapture={() => {}}
-                    onPointerLeaveCapture={() => {}}
                     crossOrigin={""}
                 />
                 <span className="!absolute left-[14rem] top-2 password-toggle-icon" onClick={() => {
                     setIsShowPassword(isPassword => !isPassword)
                 }}> <PasswordEye /> </span>
+                {/* @ts-ignore */}
                 <Button
                     size="sm"
                     color={password ? "gray" : "blue-gray"}
@@ -65,8 +65,6 @@ export default function VerifyPermission({ onVerify }: { onVerify: (data: { veri
                     className="!absolute right-1 top-1 rounded"
                     onClick={validatePS}
                     placeholder=""
-                    onPointerEnterCapture={() => {}}
-                    onPointerLeaveCapture={() => {}}
                 >
                     Get Access
                 </Button>

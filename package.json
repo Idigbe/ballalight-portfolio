@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "git add . && next build && git commit -m 'fix: final resolution for material-tailwind type errors in VerifyPermission' && git push"
+    "deploy": "rm -rf .next out && next build && git add . && git commit -m 'fix: transpile material-tailwind to resolve static export module error' && git push"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
