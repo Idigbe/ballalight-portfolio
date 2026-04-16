@@ -22,7 +22,7 @@ const Gallery = () => {
         >
           <Image
             className="w-[auto] h-[auto] object-scale-down"
-            src="https://breakoutng-assets.s3.eu-west-2.amazonaws.com/ld/portfolio-files/nd/assets/gallery/gallery.png" alt="Gallery"
+            src="/assets/gallery/gallery.png" alt="Gallery"
             fill={false}
             // width={1024}
             // height={1440}

@@ -1,0 +1,242 @@
+{
+  "projects": [
+    {
+      "id": "bp",
+      "slug": "bp",
+      "title": "BetKing - Payments",
+      "subTitle": "Revamping the payment experience",
+      "mainImage": "/assets/work/home/row-1/1.png",
+      "heroImage": "/assets/work/projects/bk-payment/bk-deposit-landing.jpg",
+      "passwordProtected": true,
+      "overview": {
+        "about": "BetKing is a leading sports betting and gaming company in Africa, known for its extensive sportsbook, virtual games, and online casino offerings. It provides competitive odds, a user-friendly platform, and innovative features tailored to the African market.",
+        "challenge": "The pain points based on customer feedback and analytical tools insights were information overload, difficulty choosing a payment method, inconsistency & repetitive experience, leading to a high drop-off rate and long completion time.",
+        "problemStatement": "User who is a first time or existing customer need to be able to make and complete a deposit with ease and in due time because they need to be able to place their bet."
+      },
+      "details": {
+        "roles": ["Senior Product Designer - Payment"],
+        "designedFor": ["iOS / Android", "Responsive Web"],
+        "responsibilities": [
+          "Survey",
+          "Data Analytics",
+          "Competitive analysis",
+          "Empathy Mapping",
+          "Customer Journey Mapping",
+          "Workshops",
+          "User flow",
+          "Payment Design System",
+          "Designs",
+          "Prototypes",
+          "User testing"
+        ],
+        "toolsImage": "/assets/utility/bk-mob-util.png"
+      },
+      "sections": [
+        {
+          "type": "text_block",
+          "title": "Context",
+          "content": "The goal is to revamp payments to meet customer's needs by defining the users' problems and finding creative solutions...",
+          "image": "/assets/work/projects/bk-payment/target.png"
+        },
+        {
+          "type": "gallery",
+          "title": "Survey",
+          "images": [{ "src": "/assets/work/projects/bk-payment/user-survey.png", "cols": 12 }],
+          "content": "All payment methods needed to be grouped into their respective categories..."
+        },
+        {
+          "type": "gallery",
+          "title": "Customer Journey Map",
+          "images": [{ "src": "/assets/work/projects/bk-payment/paystack.png", "cols": 12 }],
+          "content": "Major Insights: 59.90% conversion rate, 7mins completion time..."
+        },
+        {
+          "type": "gallery",
+          "title": "Designs",
+          "images": [
+            { "src": "/assets/work/projects/bk-payment/dep-card-1.png", "cols": 3 },
+            { "src": "/assets/work/projects/bk-payment/dep-card-2.png", "cols": 3 },
+            { "src": "/assets/work/projects/bk-payment/dep-card-3.png", "cols": 3 },
+            { "src": "/assets/work/projects/bk-payment/dep-card-4.png", "cols": 3 }
+          ]
+        }
+      ],
+      "prevProject": { "slug": "", "title": "" },
+      "nextProject": { "slug": "tt", "title": "TradeTracker - SaaS" },
+      "order": 1
+    },
+    {
+      "id": "tt",
+      "slug": "tt",
+      "title": "TradeTracker - SaaS",
+      "subTitle": "Upgraded main dashboard for TradeTracker affiliate app",
+      "mainImage": "/assets/work/home/row-1/2.png",
+      "heroImage": "/assets/work/projects/trade-tracker/tt.png",
+      "passwordProtected": true,
+      "overview": {
+        "about": "TradeTracker is a leading affiliate marketing platform that connects advertisers with publishers to drive sales and revenue.",
+        "challenge": "Design an intuitive and user-friendly dashboard that caters to the unique needs of diverse user groups.",
+        "problemStatement": "User who is a first time or existing customer need to be able to make and complete a deposit with ease."
+      },
+      "details": {
+        "roles": ["Senior Product Designer"],
+        "designedFor": ["Responsive Web"],
+        "responsibilities": ["Heuristic evaluation", "Platform analysis", "Personas", "IA", "Wireframes", "Design system", "Designs"],
+        "toolsImage": "/assets/utility/tt-util.png"
+      },
+      "sections": [
+        {
+          "type": "gallery",
+          "title": "Heuristic evaluation - Understand",
+          "images": [{ "src": "/assets/work/projects/trade-tracker/tt-3.png", "cols": 12 }],
+          "content": "Issues Identified: Lack of contextual information, Overly technical language..."
+        },
+        {
+          "type": "gallery",
+          "title": "Designs - Light and Dark Mode",
+          "images": [
+            { "src": "/assets/work/projects/trade-tracker/dash-light.png", "cols": 6 },
+            { "src": "/assets/work/projects/trade-tracker/dash-dark.png", "cols": 6 }
+          ]
+        }
+      ],
+      "prevProject": { "slug": "bp", "title": "BetKing - Payments" },
+      "nextProject": { "slug": "ub", "title": "Union Bank - Financials" },
+      "order": 2
+    },
+    {
+      "id": "ub",
+      "slug": "ub",
+      "title": "Union Bank - Financials",
+      "subTitle": "Improving the mobile banking experience",
+      "mainImage": "/assets/work/home/row-2/2.png",
+      "heroImage": "/assets/work/projects/ub/1.png",
+      "passwordProtected": true,
+      "overview": {
+        "about": "Union Bank of Nigeria (UBN) was established in 1917 and is one of Nigeria's long-standing financial institutions.",
+        "challenge": "The current banking app lacks intuitive navigation and fails to provide a seamless user experience."
+      },
+      "details": {
+        "roles": ["Lead UX/UI Designer"],
+        "designedFor": ["Mobile App"],
+        "responsibilities": ["User Interview", "Heuristic evaluation", "Define the Problem", "Persona", "Ideation", "IA", "Design System", "Design", "Test"],
+        "toolsImage": "/assets/utility/ub-util.png"
+      },
+      "sections": [
+        {
+          "type": "gallery",
+          "title": "Customer Journey Map",
+          "images": [{ "src": "/assets/work/projects/ub/3.png", "cols": 12 }],
+          "content": "The customer journey map for transferring money highlights several issues..."
+        },
+        {
+          "type": "gallery",
+          "title": "Designs",
+          "images": [
+            { "src": "/assets/work/projects/ub/b-1.png", "cols": 2 },
+            { "src": "/assets/work/projects/ub/b-2.png", "cols": 2 }
+          ]
+        }
+      ],
+      "prevProject": { "slug": "tt", "title": "TradeTracker - SaaS" },
+      "nextProject": { "slug": "ds", "title": "Design System" },
+      "order": 3
+    },
+    {
+      "id": "ds",
+      "slug": "ds",
+      "title": "Design System",
+      "subTitle": "Open-source design system",
+      "mainImage": "/assets/work/home/row-2/1.png",
+      "heroImage": "/assets/work/projects/ds/1.png",
+      "overview": {
+        "about": "Light's Design System and Component Library is an open-source project I created to provide designers with a robust foundation.",
+        "challenge": "Designers often struggle with having a consistent and high-quality foundation to start their projects.",
+        "problemStatement": "How might we provide designers with an open-source, adaptable design system?"
+      },
+      "details": {
+        "roles": ["Design system designer", "Lead UI Designer"],
+        "designedFor": ["Web and Mobile"],
+        "responsibilities": ["Research", "Color styles", "Text styles", "Grid and Spacing", "Icon", "Components", "Docs", "Visual"],
+        "toolsImage": "/assets/utility/figma.png"
+      },
+      "sections": [
+        {
+          "type": "gallery",
+          "title": "Snapshots of the Local styles",
+          "images": [
+            { "src": "/assets/work/projects/ds/2.png", "cols": 12 },
+            { "src": "/assets/work/projects/ds/3.png", "cols": 12 }
+          ]
+        }
+      ],
+      "prevProject": { "slug": "ub", "title": "Union Bank - Financials" },
+      "nextProject": { "slug": "ss", "title": "6th Street - E-commerce" },
+      "order": 4
+    },
+    {
+      "id": "ss",
+      "slug": "ss",
+      "title": "6th Street - E-commerce",
+      "subTitle": "Improving the shopping bag and checkout process",
+      "mainImage": "/assets/work/home/row-3/1.png",
+      "heroImage": "/assets/work/projects/six-street/1.png",
+      "passwordProtected": true,
+      "overview": {
+        "about": "6thStreet.com is an online shopping platform based in the Gulf Cooperation Council (GCC) region.",
+        "challenge": "Improving the UX for the shopping bag and checkout process of an e-commerce mobile application.",
+        "problemStatement": "The current shopping bag and checkout process could benefit from enhancements to make it more intuitive."
+      },
+      "details": {
+        "roles": ["Lead UI/UX Designer"],
+        "designedFor": ["Mobile App"],
+        "responsibilities": ["Research", "Color styles", "Text styles", "Grid and Spacing", "Icon", "Components", "Docs", "Visual"],
+        "toolsImage": "/assets/utility/ss-util.png"
+      },
+      "sections": [
+        {
+          "type": "gallery",
+          "title": "Heuristic evaluation - Old UI",
+          "images": [{ "src": "/assets/work/projects/six-street/2.png", "cols": 12 }],
+          "pros": ["Clear Layout", "Multiple Payment Options", "Personalized Recommendations", "Delivery Info"],
+          "cons": ["Visual Clutter", "Manual Entry", "Distracting Elements", "Limited Payment Details"]
+        }
+      ],
+      "prevProject": { "slug": "ds", "title": "Design System" },
+      "nextProject": { "slug": "wz", "title": "Woozeee - E-commerce" },
+      "order": 5
+    },
+    {
+      "id": "wz",
+      "slug": "wz",
+      "title": "Woozeee - E-commerce",
+      "subTitle": "E-commerce UI Design",
+      "mainImage": "/assets/work/home/row-3/2.png",
+      "heroImage": "/assets/work/projects/woozeee-ecom/1.png",
+      "overview": {
+        "about": "Woozeee Click N' Shop is the number one marketplace for smart people worldwide.",
+        "challenge": "To enhance the user experience on an e-commerce website by making it easier for users to compare prices.",
+        "problemStatement": "Users on the e-commerce website are finding it difficult to quickly and easily compare prices."
+      },
+      "details": {
+        "roles": ["Lead UI Designer"],
+        "designedFor": ["Web and Mobile", "Responsive website"],
+        "responsibilities": ["Design System", "Visual Design for mobile", "Visual Design for web", "Admin dashboard design"],
+        "toolsImage": "/assets/utility/wz-util.png"
+      },
+      "sections": [
+        {
+          "type": "gallery",
+          "title": "Web Designs",
+          "images": [
+            { "src": "/assets/work/projects/woozeee-ecom/2.png", "cols": 6 },
+            { "src": "/assets/work/projects/woozeee-ecom/3.png", "cols": 6 }
+          ]
+        }
+      ],
+      "prevProject": { "slug": "ss", "title": "6th Street - E-commerce" },
+      "nextProject": { "slug": "", "title": "" },
+      "order": 6
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+name: Deploy Portfolio
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build and Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build Next.js
+        run: npm run build
+        env:
+          # These will be needed if you want to build with static params fetching from GitHub
+          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # GITHUB_REPO: ${{ github.repository }}
+          NEXT_PUBLIC_URL: https://${{ github.repository_owner }}.github.io
+
+      # If you are using Vercel, this action isn't strictly necessary as Vercel has its own integration.
+      # If you want to deploy to GitHub Pages (Static Only - Note: Admin API won't work on GH Pages)
+      # - name: Deploy to GH Pages
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./out
