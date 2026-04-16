@@ -51,9 +51,9 @@ export default function VerifyPermission({ onVerify }: { onVerify: (data: { veri
                     containerProps={{
                         className: "min-w-0 ",
                     }}
-                    crossOrigin={undefined}
-                // onPointerEnterCapture={() => { }}
-                // onPointerLeaveCapture={() => { }}
+                    onPointerEnterCapture={() => {}}
+                    onPointerLeaveCapture={() => {}}
+                    crossOrigin={""}
                 />
                 <span className="!absolute left-[14rem] top-2 password-toggle-icon" onClick={() => {
                     setIsShowPassword(isPassword => !isPassword)
@@ -64,10 +64,9 @@ export default function VerifyPermission({ onVerify }: { onVerify: (data: { veri
                     disabled={password !== 'Balla@Designer94'}
                     className="!absolute right-1 top-1 rounded"
                     onClick={validatePS}
-                    // @ts-ignore
                     placeholder=""
-                // onPointerEnterCapture={() => { }}
-                // onPointerLeaveCapture={() => { }}
+                    onPointerEnterCapture={() => {}}
+                    onPointerLeaveCapture={() => {}}
                 >
                     Get Access
                 </Button>

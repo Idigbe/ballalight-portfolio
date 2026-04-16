@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "git add . && next build && git commit -m 'fix: resolve ESLint errors and hook dependency warnings for production build' && git push"
+    "deploy": "git add . && next build && git commit -m 'fix: final resolution for material-tailwind type errors in VerifyPermission' && git push"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",

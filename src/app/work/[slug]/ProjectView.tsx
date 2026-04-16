@@ -117,6 +117,7 @@ export default function ProjectView({ project }: { project: any }) {
                         xHeight="auto"
                         imageSrc={project.heroImage}
                         alt={project.title}
+                        priority={true}
                     />
                 </div>
 
@@ -164,6 +165,7 @@ export default function ProjectView({ project }: { project: any }) {
                                 xHeight="auto"
                                 imageSrc={project.details.toolsImage}
                                 alt="Tools"
+                                priority={true}
                             />
                         </div>
                     </div>
