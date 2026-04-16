@@ -25,15 +25,17 @@ jobs:
       - name: Build Next.js
         run: npm run build
         env:
-          # These will be needed if you want to build with static params fetching from GitHub
-          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # GITHUB_REPO: ${{ github.repository }}
-          NEXT_PUBLIC_URL: https://${{ github.repository_owner }}.github.io
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPO: ${{ secrets.GITHUB_REPO }}
 
-      # If you are using Vercel, this action isn't strictly necessary as Vercel has its own integration.
-      # If you want to deploy to GitHub Pages (Static Only - Note: Admin API won't work on GH Pages)
-      # - name: Deploy to GH Pages
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     publish_dir: ./out
+      - name: Deploy to A2 Hosting
+        uses: easingthemes/ssh-deploy@main
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.A2_KEY }}
+          ARGS: "-rlgoDzvc -i --delete"
+          SOURCE: "/"
+          REMOTE_HOST: ${{ secrets.A2_HOST }}
+          REMOTE_USER: ${{ secrets.A2_USER }}
+          REMOTE_PORT: ${{ secrets.A2_PORT }}
+          TARGET: "/home/${{ secrets.A2_USER }}/public_html"
+          EXCLUDE: "/node_modules/, /.git/, /.github/"
