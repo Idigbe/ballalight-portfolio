@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    // output: 'export', // Removed as we are moving to a live server
+    output: 'export', 
     reactStrictMode: true,
     optimizeFonts: true,
     images: {

@@ -1,41 +1,43 @@
-name: Deploy Portfolio
+name: Deploy to Portfolio
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
 
 jobs:
-  build:
-    name: Build and Test
+  deploy-production:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v4
+    - name: Checkout code
+      uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
 
-      - name: Install Dependencies
-        run: npm install
+    - name: Install Dependencies
+      run: npm install
 
-      - name: Build Next.js
-        run: npm run build
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPO: ${{ secrets.GITHUB_REPO }}
+    - name: Build Next.js
+      run: npm run build
 
-      - name: Deploy to A2 Hosting
-        uses: easingthemes/ssh-deploy@main
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.A2_KEY }}
-          ARGS: "-rlgoDzvc -i --delete"
-          SOURCE: "/"
-          REMOTE_HOST: ${{ secrets.A2_HOST }}
-          REMOTE_USER: ${{ secrets.A2_USER }}
-          REMOTE_PORT: ${{ secrets.A2_PORT }}
-          TARGET: "/home/${{ secrets.A2_USER }}/public_html"
-          EXCLUDE: "/node_modules/, /.git/, /.github/"
+    - name: Native Deploy to Production (Single-Connection Pipe)
+      run: |
+        # Setup SSH Key
+        mkdir -p ~/.ssh
+        echo "${{ secrets.A2_KEY }}" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        
+        # Create Bundle (Next.js export goes to 'out' folder)
+        tar -zcf deploy.tar.gz -C out .
+        
+        # Piped Transfer & Extraction with Retry Logic
+        for i in {1..3}; do
+          echo "Deployment attempt $i..."
+          cat deploy.tar.gz | ssh -o StrictHostKeyChecking=no -o ConnectTimeout=60 -p ${{ secrets.A2_PORT }} ${{ secrets.A2_USER }}@${{ secrets.A2_HOST }} \
+            "cd ~/ballalight.design && tar -zxf - && find . -type f -exec chmod 644 {} \; && find . -type d -exec chmod 755 {} \;" && break || \
+            (echo "Attempt $i failed, retrying in 10s..." && sleep 10)
+        done
