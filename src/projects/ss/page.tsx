@@ -318,7 +318,7 @@ const SixStreet = () => {
       }
 
       <div className="flex flex-row w-full justify-between justify-items-center my-4 md:px-2">
-        <PrevLink link={"/work/ds"} isBack={false} projectTitle="Design Sytems" />
+        <PrevLink link={"/work/ds"} isBack={false} projectTitle="Design System" />
         <NextLink link={"/work/wz"} isNext={true} projectTitle=" Woozeee - E-commerce" />
       </div>
       <LetsConnect />

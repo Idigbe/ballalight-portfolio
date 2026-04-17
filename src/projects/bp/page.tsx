@@ -458,8 +458,8 @@ const BetKingPayments = () => {
         </>
       }
       <div className="flex flex-row w-full justify-between justify-items-center my-4 md:px-2">
-        <PrevLink link={"/work/"} isBack={true} projectTitle="" />
-        <NextLink link={"/work/tt"} isNext={true} projectTitle="TradeTracker - SaaS" />
+        <PrevLink link={"/work/sb"} isBack={false} projectTitle="Sainsbury's Code Control" />
+        <NextLink link={"/work/cr"} isNext={true} projectTitle="CareerRoyale - AI Powered Career Platform" />
       </div>
 
       <LetsConnect />

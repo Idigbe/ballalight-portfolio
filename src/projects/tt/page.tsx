@@ -445,8 +445,8 @@ const TradeTracker = () => {
       }
 
       <div className="flex flex-row w-full justify-between justify-items-center my-4 md:px-2">
-        <PrevLink link={"/work/bp"} isBack={false} projectTitle="BetKing - Payment" />
-        <NextLink link={"/work/ub"} isNext={true} projectTitle="Union Bank - Financials" />
+        <PrevLink link={"/work/cr"} isBack={false} projectTitle="CareerRoyale - AI Powered Career Platform" />
+        <NextLink link={"/work/mt"} isNext={true} projectTitle="Momentum - A life operating system built with AI" />
       </div>
       <LetsConnect />
 

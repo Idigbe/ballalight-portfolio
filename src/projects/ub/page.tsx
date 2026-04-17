@@ -289,7 +289,7 @@ const UB = () => {
       }
 
       <div className="flex flex-row w-full justify-between justify-items-center my-4 md:px-2">
-        <PrevLink link={"/work/tt"} isBack={false} projectTitle="TradeTracker - SaaS" />
+        <PrevLink link={"/work/mt"} isBack={false} projectTitle="Momentum - A life operating system built with AI" />
         <NextLink link={"/work/ds"} isNext={true} projectTitle="Design System" />
       </div>
       <LetsConnect />
