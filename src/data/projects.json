@@ -1,9 +1,79 @@
 {
   "projects": [
     {
+      "id": "tt",
+      "slug": "tt",
+      "title": "TradeTracker - SaaS",
+      "isLegacy": true,
+      "subTitle": "Upgraded main dashboard for TradeTracker affiliate app",
+      "mainImage": "/assets/work/home/row-1/2.png",
+      "heroImage": "/assets/work/projects/trade-tracker/tt.png",
+      "passwordProtected": true,
+      "overview": {
+        "about": "TradeTracker is a leading affiliate marketing platform that connects advertisers with publishers to drive sales and revenue.",
+        "challenge": "Design an intuitive and user-friendly dashboard that caters to the unique needs of diverse user groups.",
+        "problemStatement": "User who is a first time or existing customer need to be able to make and complete a deposit with ease."
+      },
+      "details": {
+        "roles": [
+          "Senior Product Designer"
+        ],
+        "designedFor": [
+          "Responsive Web"
+        ],
+        "responsibilities": [
+          "Heuristic evaluation",
+          "Platform analysis",
+          "Personas",
+          "IA",
+          "Wireframes",
+          "Design system",
+          "Designs"
+        ],
+        "toolsImage": "/assets/utility/tt-util.png"
+      },
+      "sections": [
+        {
+          "type": "gallery",
+          "title": "Heuristic evaluation - Understand",
+          "images": [
+            {
+              "src": "/assets/work/projects/trade-tracker/tt-3.png",
+              "cols": 12
+            }
+          ],
+          "content": "Issues Identified: Lack of contextual information, Overly technical language..."
+        },
+        {
+          "type": "gallery",
+          "title": "Designs - Light and Dark Mode",
+          "images": [
+            {
+              "src": "/assets/work/projects/trade-tracker/dash-light.png",
+              "cols": 6
+            },
+            {
+              "src": "/assets/work/projects/trade-tracker/dash-dark.png",
+              "cols": 6
+            }
+          ]
+        }
+      ],
+      "prevProject": {
+        "slug": "bp",
+        "title": "BetKing - Payments"
+      },
+      "nextProject": {
+        "slug": "ub",
+        "title": "Union Bank - Financials"
+      },
+      "order": 1
+    },
+    {
       "id": "bp",
       "slug": "bp",
       "title": "BetKing - Payments",
+      "isLegacy": true,
       "subTitle": "Revamping the payment experience",
       "mainImage": "/assets/work/home/row-1/1.png",
       "heroImage": "/assets/work/projects/bk-payment/bk-deposit-landing.jpg",
@@ -14,8 +84,13 @@
         "problemStatement": "User who is a first time or existing customer need to be able to make and complete a deposit with ease and in due time because they need to be able to place their bet."
       },
       "details": {
-        "roles": ["Senior Product Designer - Payment"],
-        "designedFor": ["iOS / Android", "Responsive Web"],
+        "roles": [
+          "Senior Product Designer - Payment"
+        ],
+        "designedFor": [
+          "iOS / Android",
+          "Responsive Web"
+        ],
         "responsibilities": [
           "Survey",
           "Data Analytics",
@@ -41,73 +116,63 @@
         {
           "type": "gallery",
           "title": "Survey",
-          "images": [{ "src": "/assets/work/projects/bk-payment/user-survey.png", "cols": 12 }],
+          "images": [
+            {
+              "src": "/assets/work/projects/bk-payment/user-survey.png",
+              "cols": 12
+            }
+          ],
           "content": "All payment methods needed to be grouped into their respective categories..."
         },
         {
           "type": "gallery",
           "title": "Customer Journey Map",
-          "images": [{ "src": "/assets/work/projects/bk-payment/paystack.png", "cols": 12 }],
+          "images": [
+            {
+              "src": "/assets/work/projects/bk-payment/paystack.png",
+              "cols": 12
+            }
+          ],
           "content": "Major Insights: 59.90% conversion rate, 7mins completion time..."
         },
         {
           "type": "gallery",
           "title": "Designs",
           "images": [
-            { "src": "/assets/work/projects/bk-payment/dep-card-1.png", "cols": 3 },
-            { "src": "/assets/work/projects/bk-payment/dep-card-2.png", "cols": 3 },
-            { "src": "/assets/work/projects/bk-payment/dep-card-3.png", "cols": 3 },
-            { "src": "/assets/work/projects/bk-payment/dep-card-4.png", "cols": 3 }
+            {
+              "src": "/assets/work/projects/bk-payment/dep-card-1.png",
+              "cols": 3
+            },
+            {
+              "src": "/assets/work/projects/bk-payment/dep-card-2.png",
+              "cols": 3
+            },
+            {
+              "src": "/assets/work/projects/bk-payment/dep-card-3.png",
+              "cols": 3
+            },
+            {
+              "src": "/assets/work/projects/bk-payment/dep-card-4.png",
+              "cols": 3
+            }
           ]
         }
       ],
-      "prevProject": { "slug": "", "title": "" },
-      "nextProject": { "slug": "tt", "title": "TradeTracker - SaaS" },
-      "order": 1
-    },
-    {
-      "id": "tt",
-      "slug": "tt",
-      "title": "TradeTracker - SaaS",
-      "subTitle": "Upgraded main dashboard for TradeTracker affiliate app",
-      "mainImage": "/assets/work/home/row-1/2.png",
-      "heroImage": "/assets/work/projects/trade-tracker/tt.png",
-      "passwordProtected": true,
-      "overview": {
-        "about": "TradeTracker is a leading affiliate marketing platform that connects advertisers with publishers to drive sales and revenue.",
-        "challenge": "Design an intuitive and user-friendly dashboard that caters to the unique needs of diverse user groups.",
-        "problemStatement": "User who is a first time or existing customer need to be able to make and complete a deposit with ease."
+      "prevProject": {
+        "slug": "",
+        "title": ""
       },
-      "details": {
-        "roles": ["Senior Product Designer"],
-        "designedFor": ["Responsive Web"],
-        "responsibilities": ["Heuristic evaluation", "Platform analysis", "Personas", "IA", "Wireframes", "Design system", "Designs"],
-        "toolsImage": "/assets/utility/tt-util.png"
+      "nextProject": {
+        "slug": "tt",
+        "title": "TradeTracker - SaaS"
       },
-      "sections": [
-        {
-          "type": "gallery",
-          "title": "Heuristic evaluation - Understand",
-          "images": [{ "src": "/assets/work/projects/trade-tracker/tt-3.png", "cols": 12 }],
-          "content": "Issues Identified: Lack of contextual information, Overly technical language..."
-        },
-        {
-          "type": "gallery",
-          "title": "Designs - Light and Dark Mode",
-          "images": [
-            { "src": "/assets/work/projects/trade-tracker/dash-light.png", "cols": 6 },
-            { "src": "/assets/work/projects/trade-tracker/dash-dark.png", "cols": 6 }
-          ]
-        }
-      ],
-      "prevProject": { "slug": "bp", "title": "BetKing - Payments" },
-      "nextProject": { "slug": "ub", "title": "Union Bank - Financials" },
       "order": 2
     },
     {
       "id": "ub",
       "slug": "ub",
       "title": "Union Bank - Financials",
+      "isLegacy": true,
       "subTitle": "Improving the mobile banking experience",
       "mainImage": "/assets/work/home/row-2/2.png",
       "heroImage": "/assets/work/projects/ub/1.png",
@@ -117,35 +182,67 @@
         "challenge": "The current banking app lacks intuitive navigation and fails to provide a seamless user experience."
       },
       "details": {
-        "roles": ["Lead UX/UI Designer"],
-        "designedFor": ["Mobile App"],
-        "responsibilities": ["User Interview", "Heuristic evaluation", "Define the Problem", "Persona", "Ideation", "IA", "Design System", "Design", "Test"],
+        "roles": [
+          "Lead UX/UI Designer"
+        ],
+        "designedFor": [
+          "Mobile App"
+        ],
+        "responsibilities": [
+          "User Interview",
+          "Heuristic evaluation",
+          "Define the Problem",
+          "Persona",
+          "Ideation",
+          "IA",
+          "Design System",
+          "Design",
+          "Test"
+        ],
         "toolsImage": "/assets/utility/ub-util.png"
       },
       "sections": [
         {
           "type": "gallery",
           "title": "Customer Journey Map",
-          "images": [{ "src": "/assets/work/projects/ub/3.png", "cols": 12 }],
+          "images": [
+            {
+              "src": "/assets/work/projects/ub/3.png",
+              "cols": 12
+            }
+          ],
           "content": "The customer journey map for transferring money highlights several issues..."
         },
         {
           "type": "gallery",
           "title": "Designs",
           "images": [
-            { "src": "/assets/work/projects/ub/b-1.png", "cols": 2 },
-            { "src": "/assets/work/projects/ub/b-2.png", "cols": 2 }
+            {
+              "src": "/assets/work/projects/ub/b-1.png",
+              "cols": 2
+            },
+            {
+              "src": "/assets/work/projects/ub/b-2.png",
+              "cols": 2
+            }
           ]
         }
       ],
-      "prevProject": { "slug": "tt", "title": "TradeTracker - SaaS" },
-      "nextProject": { "slug": "ds", "title": "Design System" },
+      "prevProject": {
+        "slug": "tt",
+        "title": "TradeTracker - SaaS"
+      },
+      "nextProject": {
+        "slug": "ds",
+        "title": "Design System"
+      },
       "order": 3
     },
     {
       "id": "ds",
       "slug": "ds",
       "title": "Design System",
+      "isLegacy": true,
       "subTitle": "Open-source design system",
       "mainImage": "/assets/work/home/row-2/1.png",
       "heroImage": "/assets/work/projects/ds/1.png",
@@ -155,9 +252,23 @@
         "problemStatement": "How might we provide designers with an open-source, adaptable design system?"
       },
       "details": {
-        "roles": ["Design system designer", "Lead UI Designer"],
-        "designedFor": ["Web and Mobile"],
-        "responsibilities": ["Research", "Color styles", "Text styles", "Grid and Spacing", "Icon", "Components", "Docs", "Visual"],
+        "roles": [
+          "Design system designer",
+          "Lead UI Designer"
+        ],
+        "designedFor": [
+          "Web and Mobile"
+        ],
+        "responsibilities": [
+          "Research",
+          "Color styles",
+          "Text styles",
+          "Grid and Spacing",
+          "Icon",
+          "Components",
+          "Docs",
+          "Visual"
+        ],
         "toolsImage": "/assets/utility/figma.png"
       },
       "sections": [
@@ -165,19 +276,87 @@
           "type": "gallery",
           "title": "Snapshots of the Local styles",
           "images": [
-            { "src": "/assets/work/projects/ds/2.png", "cols": 12 },
-            { "src": "/assets/work/projects/ds/3.png", "cols": 12 }
+            {
+              "src": "/assets/work/projects/ds/2.png",
+              "cols": 12
+            },
+            {
+              "src": "/assets/work/projects/ds/3.png",
+              "cols": 12
+            }
           ]
         }
       ],
-      "prevProject": { "slug": "ub", "title": "Union Bank - Financials" },
-      "nextProject": { "slug": "ss", "title": "6th Street - E-commerce" },
+      "prevProject": {
+        "slug": "ub",
+        "title": "Union Bank - Financials"
+      },
+      "nextProject": {
+        "slug": "ss",
+        "title": "6th Street - E-commerce"
+      },
       "order": 4
+    },
+    {
+      "id": "wz",
+      "slug": "wz",
+      "title": "Woozeee - E-commerce",
+      "isLegacy": true,
+      "subTitle": "E-commerce UI Design",
+      "mainImage": "/assets/work/home/row-3/2.png",
+      "heroImage": "/assets/work/projects/woozeee-ecom/1.png",
+      "overview": {
+        "about": "Woozeee Click N' Shop is the number one marketplace for smart people worldwide.",
+        "challenge": "To enhance the user experience on an e-commerce website by making it easier for users to compare prices.",
+        "problemStatement": "Users on the e-commerce website are finding it difficult to quickly and easily compare prices."
+      },
+      "details": {
+        "roles": [
+          "Lead UI Designer"
+        ],
+        "designedFor": [
+          "Web and Mobile",
+          "Responsive website"
+        ],
+        "responsibilities": [
+          "Design System",
+          "Visual Design for mobile",
+          "Visual Design for web",
+          "Admin dashboard design"
+        ],
+        "toolsImage": "/assets/utility/wz-util.png"
+      },
+      "sections": [
+        {
+          "type": "gallery",
+          "title": "Web Designs",
+          "images": [
+            {
+              "src": "/assets/work/projects/woozeee-ecom/2.png",
+              "cols": 6
+            },
+            {
+              "src": "/assets/work/projects/woozeee-ecom/3.png",
+              "cols": 6
+            }
+          ]
+        }
+      ],
+      "prevProject": {
+        "slug": "ss",
+        "title": "6th Street - E-commerce"
+      },
+      "nextProject": {
+        "slug": "",
+        "title": ""
+      },
+      "order": 5
     },
     {
       "id": "ss",
       "slug": "ss",
       "title": "6th Street - E-commerce",
+      "isLegacy": true,
       "subTitle": "Improving the shopping bag and checkout process",
       "mainImage": "/assets/work/home/row-3/1.png",
       "heroImage": "/assets/work/projects/six-street/1.png",
@@ -188,55 +367,195 @@
         "problemStatement": "The current shopping bag and checkout process could benefit from enhancements to make it more intuitive."
       },
       "details": {
-        "roles": ["Lead UI/UX Designer"],
-        "designedFor": ["Mobile App"],
-        "responsibilities": ["Research", "Color styles", "Text styles", "Grid and Spacing", "Icon", "Components", "Docs", "Visual"],
+        "roles": [
+          "Lead UI/UX Designer"
+        ],
+        "designedFor": [
+          "Mobile App"
+        ],
+        "responsibilities": [
+          "Research",
+          "Color styles",
+          "Text styles",
+          "Grid and Spacing",
+          "Icon",
+          "Components",
+          "Docs",
+          "Visual"
+        ],
         "toolsImage": "/assets/utility/ss-util.png"
       },
       "sections": [
         {
           "type": "gallery",
           "title": "Heuristic evaluation - Old UI",
-          "images": [{ "src": "/assets/work/projects/six-street/2.png", "cols": 12 }],
-          "pros": ["Clear Layout", "Multiple Payment Options", "Personalized Recommendations", "Delivery Info"],
-          "cons": ["Visual Clutter", "Manual Entry", "Distracting Elements", "Limited Payment Details"]
-        }
-      ],
-      "prevProject": { "slug": "ds", "title": "Design System" },
-      "nextProject": { "slug": "wz", "title": "Woozeee - E-commerce" },
-      "order": 5
-    },
-    {
-      "id": "wz",
-      "slug": "wz",
-      "title": "Woozeee - E-commerce",
-      "subTitle": "E-commerce UI Design",
-      "mainImage": "/assets/work/home/row-3/2.png",
-      "heroImage": "/assets/work/projects/woozeee-ecom/1.png",
-      "overview": {
-        "about": "Woozeee Click N' Shop is the number one marketplace for smart people worldwide.",
-        "challenge": "To enhance the user experience on an e-commerce website by making it easier for users to compare prices.",
-        "problemStatement": "Users on the e-commerce website are finding it difficult to quickly and easily compare prices."
-      },
-      "details": {
-        "roles": ["Lead UI Designer"],
-        "designedFor": ["Web and Mobile", "Responsive website"],
-        "responsibilities": ["Design System", "Visual Design for mobile", "Visual Design for web", "Admin dashboard design"],
-        "toolsImage": "/assets/utility/wz-util.png"
-      },
-      "sections": [
-        {
-          "type": "gallery",
-          "title": "Web Designs",
           "images": [
-            { "src": "/assets/work/projects/woozeee-ecom/2.png", "cols": 6 },
-            { "src": "/assets/work/projects/woozeee-ecom/3.png", "cols": 6 }
+            {
+              "src": "/assets/work/projects/six-street/2.png",
+              "cols": 12
+            }
+          ],
+          "pros": [
+            "Clear Layout",
+            "Multiple Payment Options",
+            "Personalized Recommendations",
+            "Delivery Info"
+          ],
+          "cons": [
+            "Visual Clutter",
+            "Manual Entry",
+            "Distracting Elements",
+            "Limited Payment Details"
           ]
         }
       ],
-      "prevProject": { "slug": "ss", "title": "6th Street - E-commerce" },
-      "nextProject": { "slug": "", "title": "" },
+      "prevProject": {
+        "slug": "ds",
+        "title": "Design System"
+      },
+      "nextProject": {
+        "slug": "wz",
+        "title": "Woozeee - E-commerce"
+      },
       "order": 6
+    },
+    {
+      "id": "proj-1776375400963",
+      "slug": "cr",
+      "title": "CareerRoyale - AI Powered Career Platform",
+      "subTitle": "",
+      "mainImage": "/assets/work/projects/cr/1.webp",
+      "heroImage": "/assets/work/projects/cr/1.webp",
+      "order": 7,
+      "overview": {
+        "about": "<p><br></p>",
+        "challenge": ""
+      },
+      "details": {
+        "roles": [
+          "Lead Product Design + Strategy"
+        ],
+        "designedFor": [
+          "Co-founder / Product Designer"
+        ],
+        "responsibilities": [
+          ""
+        ],
+        "toolsImage": "",
+        "platform": "Web SaaS",
+        "timeline": "2025 to Present",
+        "services": [
+          "Product strategy",
+          "UX research",
+          "UI design",
+          "AI integration",
+          "Design Systems",
+          "Growth Design",
+          "AI Design"
+        ],
+        "productName": "CareerRoyale"
+      },
+      "sections": [
+        {
+          "type": "metrics",
+          "title": "Scale and Context",
+          "metrics": [
+            {
+              "value": "600+",
+              "label": "Candidates submit this many applications before landing interviews"
+            },
+            {
+              "value": "~100",
+              "label": "Users acquired entirely through organic content, zero ad spend"
+            },
+            {
+              "value": "Every job search",
+              "label": "Reductions happen every day in every store, making frequency of use high"
+            },
+            {
+              "label": "Of the estate migrated to Code Control and Bluetooth printing after RSS switch-off",
+              "value": "100%"
+            }
+          ],
+          "insight": "<p>Why this matters here: Most job seekers are not failing because of a lack of effort. They are failing because the hiring system rewards positioning, clarity, and consistency—not raw talent. CareerRoyale addresses this structural problem by giving professionals the tools to present their value in a way that ATS systems and hiring managers actually respond to.</p>",
+          "isHighlight": false
+        },
+        {
+          "type": "text",
+          "title": "Scale and Context",
+          "metrics": [
+            {},
+            {},
+            {},
+            {}
+          ],
+          "insight": "",
+          "content": "<p><strong>Why this matters here:</strong> Most job seekers are not failing because of a lack of effort. They are failing because the hiring system rewards positioning, clarity, and consistency—not raw talent. CareerRoyale addresses this structural problem by giving professionals the tools to present their value in a way that ATS systems and hiring managers actually respond to.</p>",
+          "isHighlight": true
+        },
+        {
+          "type": "text",
+          "title": "The Challenge",
+          "metrics": [
+            {},
+            {},
+            {},
+            {}
+          ],
+          "insight": "",
+          "content": "<p>The job search process is structurally broken for most candidates. People spend hours tailoring applications, submitting resumes, and never hearing back. Candidates were doing all the right things—but in isolation. A resume builder here. A LinkedIn rewrite there. A spreadsheet to track applications. Random AI tools. Interview prep on YouTube. None of it connected. The market was saturated with single-purpose tools that addressed fragments of the problem. What was missing was a unified, intelligent system built around the full job search journey.</p>",
+          "isHighlight": true
+        },
+        {
+          "type": "text",
+          "title": "",
+          "metrics": [
+            {},
+            {},
+            {},
+            {}
+          ],
+          "insight": "",
+          "content": "<p>The root cause is almost never a lack of skill or experience. The core problem is visibility and positioning. ATS rejection is invisible—most candidates do not know their resume is being filtered before a human ever sees it. Job seekers receive no meaningful feedback from employers on why their applications fail, leaving them unable to improve systematically.</p><p><br></p><p>Interview preparation is scattered and unstructured, leading to poor performance despite adequate experience. Application management is chaotic. Without tracking, candidates lose visibility of their pipeline and cannot identify what is and is not working. International candidates and career changers face extra friction when translating their experience into recruiter-friendly language.</p>"
+        },
+        {
+          "type": "cards",
+          "title": "Target Audience",
+          "content": "<p>CareerRoyale was designed primarily for professionals who already have relevant experience but are struggling to communicate and position it effectively within modern hiring systems.</p>",
+          "items": [
+            {
+              "label": "PRIMARY",
+              "title": "Early to mid-career professionals",
+              "content": "Actively job searching but not getting the response rate their experience warrants. Motivated and consistent, but lacking a structured system."
+            },
+            {
+              "label": "PRIMARY",
+              "title": "International candidates",
+              "content": "Professionals moving countries or markets who need help translating their experience into language and format that local recruiters understand."
+            },
+            {
+              "label": "SECONDARY",
+              "title": "Career changers",
+              "content": "People moving industries who need to reframe transferable skills compellingly and position themselves credibly in a new context."
+            },
+            {
+              "label": "SECONDARY",
+              "title": "Ambitious recent graduates",
+              "content": "New to the workforce and navigating competitive graduate hiring. Need structure, credibility-building, and clear next steps."
+            }
+          ],
+          "insight": ""
+        }
+      ],
+      "prevProject": {
+        "slug": "",
+        "title": ""
+      },
+      "nextProject": {
+        "slug": "",
+        "title": ""
+      },
+      "description": "End-to-end product design of an AI-powered career platform built to help professionals stand out, apply smarter, and win more interviews. Covering resume optimization, LinkedIn enhancement, interview preparation, application tracking, and career analytics within a single cohesive system."
     }
   ]
 }
