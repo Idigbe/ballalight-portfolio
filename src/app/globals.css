@@ -28,74 +28,24 @@
   --radius: 2rem;
 }
 
-/* @media (prefers-color-scheme: light) {
-  :root {
-    --background: hsla(0, 0%, 100%, 1);
-    --background-end: hsla(0, 0%, 100%, 1);
-    --foreground: #1d1d1f;
-
-    --card: hsla(0, 0%, 100%, 1);
-    --card-foreground: #1d1d1f;
-    --popover: hsla(0, 0%, 100%, 1);
-    --popover-foreground: #1d1d1f;
-    --primary: hsla(0, 74%, 71%, 1);
-    --primary-foreground: hsla(0, 74%, 71%, 1);
-    --secondary: hsla(210, 40%, 96.1%, 0);
-    --secondary-foreground: hsla(222.2, 47.4%, 11.2%, 1);
-    --muted: hsla(210, 40%, 96.1%, 1);
-    --muted-foreground: hsla(215, 16.3%, 46.9%, 1);
-    --accent: hsla(210, 40%, 96.1%, 1);
-    --accent-foreground: hsla(222.2, 47.4%, 11.2%, 1);
-    --destructive: hsla(0, 84.2%, 60.2%, 1);
-    --destructive-foreground: hsla(210, 40%, 98%, 1);
-    --border: hsla(214.3, 31.8%, 91.4%, 1);
-    --input: hsla(214.3, 31.8%, 91.4%, 1);
-    --ring: hsla(221.2, 83.2%, 53.3%, 1);
-    --radius: 2rem;
-  }
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: rgb(0, 0, 0);
-    --background-end: rgb(1, 1, 1);
-    --foreground: hsl(210, 40%, 98%);
-    --card: #1d1d1f;
-    --card-foreground: hsla(210, 40%, 98%, 1);
-    --popover: #1d1d1f;
-    --popover-foreground: hsla(210, 40%, 98%, 1);
-    --primary: hsla(0, 74%, 71%, 0.8);
-    --primary-foreground: hsla(0, 74%, 71%, 1);
-    --secondary: hsla(217.2, 32.6%, 17.5%, 1);
-    --secondary-foreground: hsla(210, 40%, 98%, 1);
-    --muted: hsla(217.2, 32.6%, 17.5%, 1);
-    --muted-foreground: hsla(215, 20.2%, 65.1%, 1);
-    --accent: hsla(217.2, 32.6%, 17.5%, 1);
-    --accent-foreground: hsla(210, 40%, 98%, 1);
-    --destructive: hsla(0, 62.8%, 30.6%, 1);
-    --destructive-foreground: hsla(210, 40%, 98%, 1);
-    --border: hsla(217.2, 32.6%, 17.5%, 1);
-    --input: hsla(217.2, 32.6%, 17.5%, 1);
-    --ring: hsla(224.3, 76.3%, 48%, 1);
-  }
-} */
-
 body {
   font-family: var(--font-bricolage);
   color: var(--foreground);
   background: var(--background);
-  /* background: linear-gradient(to bottom,
-      transparent,
-      var(--background-end)) var(--background); */
 }
 
-/* @layer base {
+@layer base {
   * {
     @apply border-border;
   }
   body {
     @apply bg-background text-foreground;
   }
-} */
+  
+  html, body, .font-sans {
+    font-family: var(--font-bricolage), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  }
+}
 
 .progress-bar {
   position: fixed;
@@ -111,4 +61,42 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* Custom List Styles for Narrative & Prose */
+.prose ul, .project-text ul, .text-editor-container ul, .ql-editor ul {
+    list-style-type: none !important;
+    padding-left: 0.5rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.prose ul li, .project-text ul li, .text-editor-container ul li, .ql-editor ul li {
+    position: relative !important;
+    padding-left: 1.5rem !important;
+    margin-bottom: 0.75rem !important;
+    color: #000000B2 !important;
+}
+
+.prose ul li::before, .project-text ul li::before, .text-editor-container ul li::before, .ql-editor ul li::before {
+    content: "•" !important;
+    color: #FFB800 !important; /* Yellow Dot */
+    font-weight: bold !important;
+    position: absolute !important;
+    left: 0 !important;
+    font-size: 1.5rem !important;
+    line-height: 1 !important;
+    top: 5px !important;
+}
+
+.prose ol, .project-text ol, .text-editor-container ol, .ql-editor ol {
+    list-style-type: decimal !important;
+    padding-left: 1.5rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+    color: #000000B2 !important;
+}
+
+.prose p, .project-text p {
+    margin-bottom: 1rem !important;
 }

@@ -1,6 +1,957 @@
 {
   "projects": [
     {
+      "id": "proj-1776423975546",
+      "slug": "sb",
+      "title": "Sainsbury\u2019s Code Control - Optimised Reductions",
+      "subTitle": "",
+      "mainImage": "/assets/work/projects/sb/work_home.webp",
+      "heroImage": "/assets/work/projects/sb/1.webp",
+      "order": 1,
+      "overview": {
+        "about": "",
+        "challenge": ""
+      },
+      "details": {
+        "roles": [
+          "Lead XD Designer"
+        ],
+        "designedFor": [
+          "Sainsbury's"
+        ],
+        "responsibilities": [],
+        "toolsImage": "",
+        "productName": "Code Control",
+        "platform": "Mobile Devices",
+        "timeline": "2025 to 2026",
+        "services": [
+          "UX design",
+          "UI Design",
+          "Design Systems",
+          "Microcopy",
+          "Retail Technology",
+          "Accessibility",
+          "Colleague Tools",
+          "Figma",
+          "Miro",
+          "Jira"
+        ]
+      },
+      "sections": [
+        {
+          "type": "text",
+          "title": "Overview",
+          "content": "<p>Code Control is a colleague-facing mobile application used across Sainsbury's stores to manage in-store operations. Optimised Reductions is a core feature within Code Control that enables store colleagues to apply price reductions to products nearing their expiry date or items that have been damaged.</p><p><br></p><p>The feature supports two distinct reduction types: Expiry Reductions, where the system automatically calculates a price using a Machine Learning Algorithm, and Damaged Reductions, where colleagues manually set a reduced price. Both flows require the use of a Bluetooth-connected label printer to generate and attach reduction labels to products.</p>",
+          "items": [
+            {},
+            {},
+            {},
+            {}
+          ],
+          "insight": ""
+        },
+        {
+          "type": "showcase_grid",
+          "title": "",
+          "content": "",
+          "items": [
+            {
+              "size": "half",
+              "image": "/assets/work/projects/sb/showcase-1-0/2a.webp"
+            },
+            {
+              "size": "half",
+              "image": "/assets/work/projects/sb/showcase-1-1/2b.webp"
+            }
+          ],
+          "insight": ""
+        },
+        {
+          "type": "metrics",
+          "title": "Scale and Context",
+          "content": "<p>Optimised Reductions operates across the full Sainsbury's store estate. Understanding the scale helps frame why clarity, speed, and consistency in the design are not just UX concerns \u2014 they are operational ones with direct commercial consequences.</p>",
+          "items": [
+            {},
+            {},
+            {},
+            {}
+          ],
+          "insight": "<p><strong>Why scale matters here:</strong> A single unclear screen or failed printer pairing does not affect one colleague. At estate scale, it multiplies across thousands of shifts, creating compounding waste, incorrect reductions, and lost colleague time daily. This is why every design decision in this project was treated as an operational decision.</p>",
+          "metrics": [
+            {
+              "label": "Sainsbury's supermarkets across the UK estate",
+              "value": "1400+"
+            },
+            {
+              "label": "Colleagues across stores who rely on in-store tools daily",
+              "value": "~150k"
+            },
+            {
+              "value": "Every shift",
+              "label": "Reductions happen every day in every store, making frequency of use high"
+            },
+            {
+              "label": "Of the estate migrated to Code Control and Bluetooth printing after RSS switch-off",
+              "value": "100%"
+            }
+          ],
+          "isHighlight": true
+        },
+        {
+          "type": "text",
+          "title": "The Challenge",
+          "content": "<p><strong>Colleagues were regularly confusing two fundamentally different reduction types, completing the wrong journey, and losing confidence in the tool. The UI gave no clear signal about which mode they were in \u2014 or why those modes existed at all.</strong></p>",
+          "items": [
+            {},
+            {},
+            {},
+            {}
+          ],
+          "insight": "",
+          "isHighlight": true
+        },
+        {
+          "type": "showcase_grid",
+          "title": "",
+          "content": "",
+          "items": [
+            {
+              "image": "/assets/work/projects/sb/showcase-4-0/3a.webp",
+              "size": "half",
+              "label": "BEFORE",
+              "labelPosition": "top",
+              "labelStyle": "faded"
+            },
+            {
+              "image": "/assets/work/projects/sb/showcase-4-1/3b.webp",
+              "size": "half",
+              "label": "AFTER",
+              "labelPosition": "top",
+              "labelStyle": "faded"
+            }
+          ],
+          "insight": ""
+        },
+        {
+          "type": "cards",
+          "title": "Target audience",
+          "content": "<p>The primary users are in-store Sainsbury's colleagues responsible for managing reductions during their shift. Key characteristics of this audience include:</p>",
+          "items": [
+            {
+              "label": "Technical familiarity",
+              "title": "Mixed digital literacy",
+              "content": "Users range from digitally confident to those with limited experience of mobile tools in a work context."
+            },
+            {
+              "label": "Environment",
+              "title": "High pressure, time-constrained",
+              "content": "Colleagues work during busy store periods with limited time per task and frequent interruptions."
+            },
+            {
+              "label": "Language",
+              "title": "Varied English proficiency",
+              "content": "A significant portion of colleagues use English as a second language, making plain and accessible microcopy critical."
+            },
+            {
+              "label": "Task frequency",
+              "title": "Infrequent but critical",
+              "content": "Reductions are not performed daily by every colleague, so the interface must be learnable each time, not just memorable."
+            }
+          ],
+          "insight": ""
+        },
+        {
+          "type": "table",
+          "title": "My role and responsibilities",
+          "content": "",
+          "items": [
+            {
+              "label": "Design lead",
+              "content": "  Owned end-to-end UX and UI design across all Optimised Reductions flows, from discovery through to handover and dev support"
+            },
+            {
+              "label": "Discovery",
+              "content": "Conducted an audit of the existing flows, identified friction points, and aligned on key problems with the PM and engineering team"
+            },
+            {
+              "label": "Strategy",
+              "content": "Defined the information architecture for the new landing experience and reduction journeys, establishing a clear decision-first model"
+            },
+            {
+              "label": "UI design",
+              "content": "Designed all screens across Expiry, Damaged, and Printer Pairing flows in Figma, applying Fable design system components, tokens throughout and creating local component when necessary"
+            },
+            {
+              "label": "Microcopy",
+              "content": "Rewrote all UI text to improve clarity, accessibility, and plain language, with particular attention to instructional states and confirmation language"
+            },
+            {
+              "label": "Stakeholder alignment",
+              "content": "Presented designs to PM, business stakeholders, and developers across multiple review rounds, incorporating feedback and gaining sign-off"
+            },
+            {
+              "label": "Handover",
+              "content": "Delivered annotated Figma specs and walkthrough sessions to the development team for implementation"
+            }
+          ],
+          "insight": ""
+        },
+        {
+          "type": "tagged_list",
+          "title": "Where AI was used",
+          "content": "<p>AI was used as a practical design and thinking tool throughout this project, not as a shortcut. Each use was intentional, applied where it accelerated quality rather than replacing judgement.</p>",
+          "items": [
+            {
+              "tag": "Microcopy",
+              "title": "Generating and stress-testing UI copy variants",
+              "content": "AI was used to rapidly generate multiple microcopy options for instructional states, confirmation screens, and error messages. Each variant was evaluated against plain language principles and the needs of colleagues with varied English proficiency before a final version was selected."
+            },
+            {
+              "content": "Store feedback sessions and stakeholder meeting transcripts were processed using AI to identify recurring friction points, cluster pain points, and surface patterns across large volumes of qualitative input. This accelerated the discovery phase without losing fidelity to what colleagues actually said.",
+              "tag": "Research",
+              "title": "Synthesising store feedback and meeting transcripts"
+            },
+            {
+              "tag": "Docs",
+              "title": "Structuring design documentation and terminology references",
+              "content": "AI was used to draft and organise design documentation, including the Optimised Reductions terminology reference, microcopy rationale, and Bluetooth printer pairing guidance notes. This ensured documentation was thorough and consistent without consuming disproportionate time."
+            },
+            {
+              "tag": "Strategy",
+              "title": "Thinking through information architecture decisions",
+              "content": "During the restructuring of the Reductions landing experience, AI was used to pressure-test the proposed decision-first architecture, surface edge cases in the flow logic, and explore alternative approaches before committing to a direction in Figma."
+            },
+            {
+              "tag": "Comms",
+              "title": "Drafting stakeholder-ready write-ups and goal statements",
+              "content": "AI assisted in structuring and refining written outputs such as goal statements, measures of success, and project summaries for use in performance documentation and stakeholder reporting. All outputs were reviewed, edited, and validated before use."
+            }
+          ],
+          "insight": "",
+          "footer_content": "<p><strong>Important distinction:</strong> AI supported the thinking and documentation process. All design decisions, judgment calls, stakeholder conversations, and final outputs remained the responsibility of the designer. AI was a tool in the workflow.</p>"
+        },
+        {
+          "type": "numbered_list",
+          "title": "Design process",
+          "label": "",
+          "content": "",
+          "items": [
+            {
+              "title": "Audit and problem framing",
+              "content": "Reviewed the existing Reductions flow end-to-end, documenting inconsistencies, friction points, and gaps between the current UI and Fable standards. Ran an alignment session with the PM to agree on scope and prioritise the most impactful problems."
+            },
+            {
+              "title": "Information architecture and flow mapping",
+              "content": "Mapped the full journey across both reduction types, identifying where colleagues were getting lost and where mode confusion originated. Proposed a decision-first architecture \u2014 requiring colleagues to select a reduction type before entering a flow, rather than allowing switching mid-journey."
+            },
+            {
+              "title": "Landing page and signpost pattern",
+              "content": "Designed a new landing screen using signpost-style cards \u2014 each with an icon, title, and short description \u2014 giving colleagues clear intent before scanning. Replaced the misleading \"Scan a unit to reduce it\" prompt with contextual guidance. Flow switching was limited to this first screen only."
+            },
+            {
+              "title": "Contextual badges and visual hierarchy",
+              "content": "Introduced persistent journey badges on every screen \u2014 green for Expiry Reductions, amber for Damaged Reductions \u2014 to reinforce context throughout the task. Updated header styles, typography, and icons for faster visual scanning in store environments."
+            },
+            {
+              "title": "Microcopy and accessibility",
+              "content": "Rewrote all instructional text using plain, active language. Removed unnecessary UI elements from the Damaged flow including suggested min/max pricing. Added clear active confirmation language such as \"Confirm label attached\" to reduce ambiguity at critical moments."
+            },
+            {
+              "title": "Bluetooth printer pairing redesign",
+              "content": "Mapped the pairing journey from scratch, identifying Feed button confusion, NFC placement ambiguity, and the absence of recovery guidance as the primary failure points. Redesigned with step-by-step visual instructions, clear sequencing, and explicit reset and re-pair paths. Delivered by the August milestone."
+            },
+            {
+              "title": "Design system alignment",
+              "content": "Applied Fable colour tokens, component styles, and navigation patterns throughout all flows. Contributed the signpost card as a reusable pattern for multi-flow entry points across other colleague-facing tools."
+            },
+            {
+              "title": "Stakeholder review and developer handover",
+              "content": "Presented final designs to the PM, business team, and development squad across multiple review rounds. Delivered annotated Figma documentation and ran a walkthrough session to support implementation."
+            }
+          ],
+          "bulletStyle": "grey",
+          "layoutFormat": "grid"
+        },
+        {
+          "type": "showcase_grid",
+          "title": "KEY DESIGN DECISIONS",
+          "content": "",
+          "items": [
+            {
+              "image": "/assets/work/projects/sb/showcase-9-0/4a.webp",
+              "size": "full",
+              "label": "Landing page with signpost cards",
+              "labelPosition": "top-left",
+              "labelStyle": "normal"
+            },
+            {
+              "image": "/assets/work/projects/sb/showcase-9-1/4b.webp",
+              "size": "full",
+              "label": "Journey badges and visual hierarchy",
+              "labelPosition": "top-left"
+            },
+            {
+              "image": "/assets/work/projects/sb/showcase-9-2/4c.webp",
+              "label": "Bluetooth printer pairing flow",
+              "labelPosition": "top-left",
+              "size": "full"
+            }
+          ],
+          "insight": "",
+          "titleStyle": "label"
+        },
+        {
+          "type": "metrics",
+          "title": "Metrics and Business Value",
+          "content": "<p>The redesign contributed directly to the successful rollout of Optimised Reductions across the Sainsbury's estate. These results reflect the combined impact of the UX improvements to the Reductions journeys and the Bluetooth printer pairing flow.</p>",
+          "items": [
+            {},
+            {},
+            {},
+            {}
+          ],
+          "insight": "",
+          "metrics": [
+            {
+              "value": "100%",
+              "label": "Full estate adoption following RSS switch-off"
+            },
+            {
+              "value": "9.22",
+              "label": "Out of 10, overall colleague satisfaction score"
+            },
+            {
+              "value": "\u00a313m",
+              "label": "Annualised savings delivered across the estate"
+            },
+            {}
+          ],
+          "layoutFormat": "filled_centered"
+        },
+        {
+          "type": "metrics",
+          "title": "Adoption trajectory",
+          "content": "<p>Adoption grew organically from 80% to 97% through natural colleague uptake \u2014 without any enforcement. This is a meaningful signal that the redesign reduced friction and built genuine confidence in the tool, rather than just pushing colleagues onto it.</p>",
+          "items": [
+            {},
+            {},
+            {},
+            {}
+          ],
+          "insight": "<p><strong>Note on the adoption story:</strong> The jump from 97% to 100% was driven by the RSS system being switched off on 26th January, making Code Control and Bluetooth printing the only option. The more significant design indicator is the 80% to 97% movement, which happened entirely through voluntary behaviour change. That does not happen without a product colleagues trust.</p>",
+          "metrics": [
+            {
+              "value": "~80%",
+              "label": "Initial phase 1 rollout"
+            },
+            {
+              "label": "After 4 weeks, natural uptake",
+              "value": "~92%"
+            },
+            {
+              "label": "Before RSS switch-off, voluntary",
+              "value": "~97%"
+            },
+            {
+              "label": "Full estate after RSS switch-off Jan 26",
+              "value": "100%"
+            }
+          ],
+          "isHighlight": true,
+          "layoutFormat": "flow_sequence",
+          "titleStyle": "label"
+        },
+        {
+          "type": "metrics",
+          "title": "Printing satisfaction",
+          "content": "",
+          "items": [
+            {},
+            {},
+            {},
+            {}
+          ],
+          "insight": "",
+          "titleStyle": "label",
+          "layoutFormat": "highlight_row",
+          "metrics": [
+            {
+              "value": "9.9/10",
+              "label": "Bluetooth printer pairing satisfaction score",
+              "description": "Colleague satisfaction with the printing experience specifically, reflecting the clarity and reliability improvements delivered through the pairing redesign. A score at this level on a workflow tool used under pressure is a strong result and rarely achievable."
+            },
+            {
+              "value": "",
+              "description": "",
+              "label": ""
+            },
+            {},
+            {}
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "Business value breakdown",
+          "content": "",
+          "items": [
+            {
+              "title": "Waste reduction at scale",
+              "content": "Clearer reduction flows meant fewer incorrect reductions and less food waste across the estate, contributing directly to the \u00a313m annualised savings figure."
+            },
+            {
+              "title": "Reduced support dependency",
+              "content": "Improved pairing instructions and clearer journey signposting reduced colleague support queries and manager intervention during reductions."
+            },
+            {
+              "title": "Faster task completion",
+              "content": "Store feedback consistently highlighted efficiency and speed as key benefits, enabling colleagues to complete reductions more quickly during high-pressure periods."
+            },
+            {
+              "content": "Standardised flows and clearer pricing rules reduced deviation from intended reduction behaviour, particularly in the Damaged flow where manual pricing previously caused inconsistency.",
+              "title": "Consistent compliance across stores"
+            }
+          ],
+          "insight": "",
+          "titleStyle": "label"
+        },
+        {
+          "type": "text",
+          "title": "OUTCOMES",
+          "content": "<p>New Reductions experience approved by PM and business stakeholders, with full design handover to development. Bluetooth pairing flow delivered by the August milestone and validated through colleague feedback. Cross-functional stakeholder feedback confirmed reduced cognitive load and improved colleague understanding across both flows. The signpost card pattern was documented and proposed for adoption across other colleague tools within the Fable system.</p>",
+          "items": [
+            {},
+            {},
+            {},
+            {}
+          ],
+          "insight": "",
+          "titleStyle": "label"
+        },
+        {
+          "type": "text",
+          "title": "What I would do next",
+          "content": "<p>With strong adoption metrics confirmed, the natural next step is in-store usability validation with colleagues to test how the new landing flow performs in a live environment. I would also formalise the signpost card as a documented Fable component, conduct a QA review of the development build against Figma specs, and explore integration opportunities between Optimised Reductions and related tools such as ItemOptix and the Cameras flow to deliver a more consistent colleague experience across the estate.</p>",
+          "items": [
+            {},
+            {},
+            {},
+            {}
+          ],
+          "insight": "",
+          "titleStyle": "label"
+        }
+      ],
+      "prevProject": {
+        "slug": "wz",
+        "title": "Woozeee - E-commerce"
+      },
+      "nextProject": {
+        "slug": "bp",
+        "title": "BetKing - Payments"
+      },
+      "description": "End-to-end redesign of an in-store price reduction tool used by colleagues across Sainsbury's stores. Covering the Expiry and Damaged reduction journeys, Bluetooth printer pairing, and full alignment with the Fable design system.",
+      "passwordProtected": true
+    },
+    {
+      "id": "bp",
+      "slug": "bp",
+      "title": "BetKing - Payments",
+      "isLegacy": true,
+      "subTitle": "Revamping the payment experience",
+      "mainImage": "/assets/work/home/row-1/1.png",
+      "heroImage": "/assets/work/projects/bk-payment/bk-deposit-landing.jpg",
+      "passwordProtected": true,
+      "overview": {
+        "about": "<p>BetKing is a leading sports betting and gaming company in Africa, known for its extensive sportsbook, virtual games, and online casino offerings. It provides competitive odds, a user-friendly platform, and innovative features tailored to the African market.</p>",
+        "challenge": "<p>The pain points based on customer feedback and analytical tools insights were information overload, difficulty choosing a payment method, inconsistency &amp; repetitive experience, leading to a high drop-off rate and long completion time.</p>",
+        "problemStatement": "<p>User who is a first time or existing customer need to be able to make and complete a deposit with ease and in due time because they need to be able to place their bet.</p>"
+      },
+      "details": {
+        "roles": [
+          "Senior Product Designer - Payment"
+        ],
+        "designedFor": [
+          "iOS / Android",
+          "Responsive Web"
+        ],
+        "responsibilities": [
+          "Survey",
+          "Data Analytics",
+          "Competitive analysis",
+          "Empathy Mapping",
+          "Customer Journey Mapping",
+          "Workshops",
+          "User flow",
+          "Payment Design System",
+          "Designs",
+          "Prototypes",
+          "User testing"
+        ],
+        "toolsImage": "/assets/utility/bk-mob-util.png"
+      },
+      "sections": [
+        {
+          "type": "text_block",
+          "title": "Context",
+          "content": "<p>The goal is to revamp payments to meet customer's needs by defining the users' problems and finding creative solutions...</p>",
+          "image": "/assets/work/projects/bk-payment/target.png"
+        },
+        {
+          "type": "gallery",
+          "title": "Survey",
+          "images": [
+            {
+              "src": "/assets/work/projects/bk-payment/user-survey.png",
+              "cols": 12
+            }
+          ],
+          "content": "<p>All payment methods needed to be grouped into their respective categories...</p>"
+        },
+        {
+          "type": "gallery",
+          "title": "Customer Journey Map",
+          "images": [
+            {
+              "src": "/assets/work/projects/bk-payment/paystack.png",
+              "cols": 12
+            }
+          ],
+          "content": "<p>Major Insights: 59.90% conversion rate, 7mins completion time...</p>"
+        },
+        {
+          "type": "gallery",
+          "title": "Designs",
+          "images": [
+            {
+              "src": "/assets/work/projects/bk-payment/dep-card-1.png",
+              "cols": 3
+            },
+            {
+              "src": "/assets/work/projects/bk-payment/dep-card-2.png",
+              "cols": 3
+            },
+            {
+              "src": "/assets/work/projects/bk-payment/dep-card-3.png",
+              "cols": 3
+            },
+            {
+              "src": "/assets/work/projects/bk-payment/dep-card-4.png",
+              "cols": 3
+            }
+          ]
+        }
+      ],
+      "prevProject": {
+        "slug": "sb",
+        "title": "Sainsbury\u2019s Code Control"
+      },
+      "nextProject": {
+        "slug": "cr",
+        "title": "CareerRoyale- AI powered"
+      },
+      "order": 2,
+      "isRawLegacy": true
+    },
+    {
+      "id": "proj-1776375400963",
+      "slug": "cr",
+      "title": "CareerRoyale - AI Powered Career Platform",
+      "subTitle": "",
+      "mainImage": "/assets/work/projects/cr/work_home.webp",
+      "heroImage": "/assets/work/projects/cr/1.webp",
+      "order": 3,
+      "overview": {
+        "about": "<p><br></p>",
+        "challenge": ""
+      },
+      "details": {
+        "roles": [
+          "Lead Product Design + Strategy"
+        ],
+        "designedFor": [
+          "Co-founder / Product Designer"
+        ],
+        "responsibilities": [],
+        "toolsImage": "",
+        "platform": "Web SaaS",
+        "timeline": "2025 to Present",
+        "services": [
+          "Product strategy",
+          "UX research",
+          "UI design",
+          "AI integration",
+          "Design Systems",
+          "Growth Design",
+          "AI Design"
+        ],
+        "productName": "CareerRoyale"
+      },
+      "sections": [
+        {
+          "type": "metrics",
+          "title": "Scale and Context",
+          "metrics": [
+            {
+              "value": "600+",
+              "label": "Candidates submit this many applications before landing interviews"
+            },
+            {
+              "value": "~100",
+              "label": "Users acquired entirely through organic content, zero ad spend"
+            },
+            {
+              "value": "Every job search",
+              "label": "Reductions happen every day in every store, making frequency of use high"
+            },
+            {
+              "label": "Of the estate migrated to Code Control and Bluetooth printing after RSS switch-off",
+              "value": "100%"
+            }
+          ],
+          "insight": "<p>Why this matters here: Most job seekers are not failing because of a lack of effort. They are failing because the hiring system rewards positioning, clarity, and consistency\u2014not raw talent. CareerRoyale addresses this structural problem by giving professionals the tools to present their value in a way that ATS systems and hiring managers actually respond to.</p>",
+          "isHighlight": false
+        },
+        {
+          "type": "text",
+          "title": "",
+          "metrics": [
+            {},
+            {},
+            {},
+            {}
+          ],
+          "insight": "",
+          "content": "<p><strong>Why this matters here:</strong> Most job seekers are not failing because of a lack of effort. They are failing because the hiring system rewards positioning, clarity, and consistency\u2014not raw talent. CareerRoyale addresses this structural problem by giving professionals the tools to present their value in a way that ATS systems and hiring managers actually respond to.</p>",
+          "isHighlight": true
+        },
+        {
+          "type": "text",
+          "title": "The Challenge",
+          "metrics": [
+            {},
+            {},
+            {},
+            {}
+          ],
+          "insight": "",
+          "content": "<p>The job search process is structurally broken for most candidates. People spend hours tailoring applications, submitting resumes, and never hearing back. Candidates were doing all the right things\u2014but in isolation. A resume builder here. A LinkedIn rewrite there. A spreadsheet to track applications. Random AI tools. Interview prep on YouTube. None of it connected. The market was saturated with single-purpose tools that addressed fragments of the problem. What was missing was a unified, intelligent system built around the full job search journey.</p>",
+          "isHighlight": true
+        },
+        {
+          "type": "text",
+          "title": "",
+          "metrics": [
+            {},
+            {},
+            {},
+            {}
+          ],
+          "insight": "",
+          "content": "<p>The root cause is almost never a lack of skill or experience. The core problem is visibility and positioning. ATS rejection is invisible\u2014most candidates do not know their resume is being filtered before a human ever sees it. Job seekers receive no meaningful feedback from employers on why their applications fail, leaving them unable to improve systematically.</p><p><br></p><p>Interview preparation is scattered and unstructured, leading to poor performance despite adequate experience. Application management is chaotic. Without tracking, candidates lose visibility of their pipeline and cannot identify what is and is not working. International candidates and career changers face extra friction when translating their experience into recruiter-friendly language.</p>"
+        },
+        {
+          "type": "cards",
+          "title": "Target Audience",
+          "content": "<p>CareerRoyale was designed primarily for professionals who already have relevant experience but are struggling to communicate and position it effectively within modern hiring systems.</p>",
+          "items": [
+            {
+              "label": "PRIMARY",
+              "title": "Early to mid-career professionals",
+              "content": "Actively job searching but not getting the response rate their experience warrants. Motivated and consistent, but lacking a structured system."
+            },
+            {
+              "label": "PRIMARY",
+              "title": "International candidates",
+              "content": "Professionals moving countries or markets who need help translating their experience into language and format that local recruiters understand."
+            },
+            {
+              "label": "SECONDARY",
+              "title": "Career changers",
+              "content": "People moving industries who need to reframe transferable skills compellingly and position themselves credibly in a new context."
+            },
+            {
+              "label": "SECONDARY",
+              "title": "Ambitious recent graduates",
+              "content": "New to the workforce and navigating competitive graduate hiring. Need structure, credibility-building, and clear next steps."
+            }
+          ],
+          "insight": ""
+        },
+        {
+          "type": "text",
+          "title": "",
+          "metrics": [
+            {},
+            {},
+            {},
+            {}
+          ],
+          "insight": "",
+          "content": "<p><strong>Shared mindset: </strong>Capable professionals who know they have value but want a smarter, more confident way to make that value visible. They are action-oriented, not passive. They want systems, not generic advice.</p>",
+          "isHighlight": true
+        },
+        {
+          "type": "numbered_list",
+          "title": "My role and responsibilities",
+          "label": "ROLE & RESPONSIBILITIES",
+          "content": "<p>As co-founder and lead product designer, I owned the product experience end to end. This meant working across strategy, UX, visual design, and content to build a coherent platform from zero.</p>",
+          "items": [
+            {
+              "title": "Product strategy and vision",
+              "content": "Defined the platform mission, feature scope, and competitive positioning. Led research into the competitor landscape including Resume Worded, Jobscan, Zety, and Kickresume to identify gaps in design quality, depth of insight, and user experience."
+            },
+            {
+              "title": "UX research and problem framing",
+              "content": "Conducted research into the job seeker journey, ATS behaviour, recruiter scanning patterns, and interview preparation needs. Synthesised findings into clear problem statements and design opportunities that shaped the product roadmap."
+            },
+            {
+              "title": "Feature design and UX architecture",
+              "content": "Designed the end-to-end experience for six core features: Resume Optimisation, Resume Roast, LinkedIn Optimiser, Interview Hub, Application Tracker, and Analytics. Defined user flows, information architecture, and interaction patterns for each."
+            },
+            {
+              "title": "Visual and UI design",
+              "content": "Built the full visual identity and UI system for the platform. Designed to feel modern, clean, and premium, with a brand palette anchored to #305CDE (primary), #0CB6FE (secondary), and #FFD700 (accent). Ensured design decisions communicated credibility and confidence."
+            },
+            {
+              "title": "Go-to-market and content strategy",
+              "content": "Developed launch messaging, feature positioning, influencer outreach strategy, and a referral ecosystem. Created content calendars and social content aligned to product features to drive organic growth and sign-ups."
+            },
+            {
+              "title": "PRD development and product documentation",
+              "content": "Authored product requirement documents for key features including the Company Intelligence Agent. Translated research insights into structured, engineering-ready specifications covering scope, success metrics, and open questions."
+            }
+          ]
+        },
+        {
+          "type": "numbered_list",
+          "title": "Design process",
+          "label": "",
+          "content": "<p>The design process was structured around understanding the full job search journey before designing any individual feature. The goal was to build a coherent system, not a collection of disconnected tools.</p>",
+          "items": [
+            {
+              "title": "Discovery and competitive research",
+              "content": "Analysed the competitive landscape across product experience, marketing, and support. Scored each competitor to identify where the market was strong and where meaningful gaps existed. Identified that most tools traded off either design quality or analytical depth. CareerRoyale was positioned to deliver both."
+            },
+            {
+              "title": "Problem definition",
+              "content": "Mapped the job seeker journey from resume creation through to post-interview. Identified the highest-friction points and clustered them into five design opportunity areas. Used these to define a feature set that addressed the full pipeline rather than individual moments."
+            },
+            {
+              "title": "Information architecture and user flows",
+              "content": "Designed the navigation structure and primary user flows for each feature. Prioritised clarity and low cognitive load. Ensured each feature had a clear entry point, a logical progression, and a defined output that users could act on immediately."
+            },
+            {
+              "title": "UI design and visual system",
+              "content": "Built the full UI design system. Designed a dashboard-first experience that surfaced strengths, weaknesses, and progress in one view. Chose a scoring-led interface model to give users transparent, quantifiable feedback that replaced the vague and absent feedback of real hiring processes."
+            },
+            {
+              "title": "Prototyping and iteration",
+              "content": "Used Lovable as the primary build tool to move rapidly from design intent to working product. Iterated on key flows based on real usage patterns, particularly the resume score and before-and-after optimisation view, which became a central communication device for demonstrating value."
+            },
+            {
+              "title": "Launch and growth design",
+              "content": "Designed the launch strategy alongside the product experience. This included the referral and commission ecosystem, founding access positioning, and the content system that drove the first 55 organic users without any paid promotion."
+            }
+          ]
+        },
+        {
+          "type": "showcase_grid",
+          "title": "KEY SCREENS",
+          "metrics": [
+            {},
+            {},
+            {},
+            {}
+          ],
+          "insight": "",
+          "items": [
+            {
+              "image": "/assets/work/projects/cr/showcase-8-0/2a.webp",
+              "size": "full"
+            },
+            {
+              "image": "/assets/work/projects/cr/showcase-8-1/2b.webp",
+              "size": "half"
+            },
+            {
+              "image": "/assets/work/projects/cr/showcase-8-2/2c.webp",
+              "size": "half"
+            }
+          ],
+          "titleStyle": "label"
+        },
+        {
+          "type": "cards",
+          "title": "Core Features",
+          "content": "<p>CareerRoyale was designed around six interconnected features that together cover the complete job search journey from first application to interview performance.</p>",
+          "items": [
+            {
+              "label": "Feature 01",
+              "title": "Resume Optimisation",
+              "content": "AI-powered resume scoring with ATS compatibility checks and recruiter-fit metrics. Benchmarked against top-performing profiles. Actionable, specific feedback on structure, language, and keyword alignment."
+            },
+            {
+              "label": "Feature 02",
+              "title": "Roast My Resume",
+              "content": "Honest, unfiltered critique of resume weaknesses. Designed to deliver the feedback employers never give, so candidates know exactly what is holding them back and what to fix first."
+            },
+            {
+              "label": "Feature 03",
+              "title": "LinkedIn Optimiser",
+              "content": "Profile analysis and enhancement recommendations to improve recruiter visibility. Covers headline, summary, experience framing, and keyword positioning based on real search behaviour patterns."
+            },
+            {
+              "label": "Feature 04",
+              "title": "Interview Hub",
+              "content": "Structured interview preparation covering screening calls, technical rounds, and final interviews. Guided practice with feedback on answer structure, clarity, and impact. Covers different stages and question types."
+            },
+            {
+              "title": "Application Tracker",
+              "content": "Centralised job application management. Track status, deadlines, contacts, and notes for every application in one place. Removes the chaos of spreadsheets and scattered tools.",
+              "label": "Feature 05",
+              "image": ""
+            },
+            {
+              "title": "Analytics",
+              "content": "Data-driven insights into job search performance. Surface patterns in application outcomes, response rates, and optimisation progress. Gives users the strategic visibility to adjust approach rather than repeat the same mistakes.",
+              "label": "Feature 06",
+              "image": ""
+            }
+          ],
+          "insight": "",
+          "titleStyle": "label"
+        },
+        {
+          "type": "showcase_grid",
+          "title": "DESIGN SYSTEM",
+          "content": "",
+          "items": [
+            {
+              "image": "/assets/work/projects/cr/showcase-10-0/design_system1.webp"
+            },
+            {
+              "image": "/assets/work/projects/cr/showcase-10-1/design_system2.webp"
+            }
+          ],
+          "insight": "",
+          "titleStyle": "label",
+          "layoutMode": "unified"
+        },
+        {
+          "type": "showcase_grid",
+          "title": "DISCOVERY",
+          "content": "",
+          "items": [
+            {
+              "image": "/assets/work/projects/cr/showcase-11-0/discovery1.webp"
+            },
+            {
+              "image": "/assets/work/projects/cr/showcase-11-1/discovery2.webp"
+            }
+          ],
+          "insight": "",
+          "titleStyle": "label",
+          "layoutMode": "unified"
+        },
+        {
+          "type": "tags_grid",
+          "title": "Tools and Technologies",
+          "content": "<p>The stack and tools were chosen to move fast without sacrificing design quality or product credibility.</p>",
+          "items": [
+            {
+              "title": "Design and prototyping",
+              "tags": "Figma, Figma make, FigJam"
+            },
+            {
+              "title": "AI and Tools",
+              "tags": "Claude, ChatGPT, Notion, Linear, Google AI Studio"
+            },
+            {
+              "title": "Go-to-market and growth",
+              "tags": "Instagram, TikTok, LinkedIn, Stripe Connect"
+            },
+            {
+              "title": "Platform",
+              "tags": "Web SaaS, careerroyale.com"
+            }
+          ],
+          "insight": ""
+        },
+        {
+          "type": "showcase_grid",
+          "title": "Responsive Design",
+          "content": "",
+          "items": [
+            {
+              "image": "/assets/work/projects/cr/showcase-12-0/responsive_design1.webp"
+            },
+            {
+              "image": "/assets/work/projects/cr/showcase-12-1/responsive_design2.webp"
+            }
+          ],
+          "insight": "",
+          "titleStyle": "label",
+          "layoutMode": "separate"
+        },
+        {
+          "type": "cards",
+          "title": "Outcomes and Reflections",
+          "content": "",
+          "items": [
+            {
+              "label": "Traction",
+              "title": "100 users, zero ad spend",
+              "content": "The first 100 users were acquired entirely through organic content and build-in-public storytelling. No paid promotion, no cold outreach campaigns."
+            },
+            {
+              "label": "Growth model",
+              "content": "A referral and commission system was designed and launched, enabling a 10% recurring commission for partners and 20% discount for referred users, tracked via Stripe Connect.",
+              "title": "Referral ecosystem live"
+            }
+          ],
+          "insight": "",
+          "titleStyle": "label"
+        },
+        {
+          "type": "text",
+          "title": "",
+          "content": "<p><strong>Key design decisions</strong></p><p><br></p><ul><li>Chose a scoring-first interface to replace the absent feedback loop of real hiring processes. Transparent, numerical scoring builds trust and gives users clear direction.</li><li>Mapped content strategy directly to individual product features rather than promoting the brand generically. This made content more useful and drove more qualified sign-ups.</li><li>Prioritised web-first deployment to reach users quickly rather than investing time in native app distribution before product-market fit was established.</li><li>Built a referral system from launch rather than retrofitting it. Structural incentives for organic growth are significantly more sustainable than relying on ad-driven acquisition.</li></ul>",
+          "items": [
+            {},
+            {},
+            {},
+            {}
+          ],
+          "insight": "",
+          "isHighlight": true
+        },
+        {
+          "type": "text",
+          "title": "",
+          "content": "<p><strong>The most important insight from building CareerRoyale:</strong> people do not need more content about job searching. They need a structured system that reduces uncertainty and builds confidence at every step. That insight shaped every design decision.</p>",
+          "items": [
+            {},
+            {},
+            {},
+            {}
+          ],
+          "insight": "",
+          "isHighlight": true
+        }
+      ],
+      "prevProject": {
+        "slug": "bp",
+        "title": "BetKing - Payments"
+      },
+      "nextProject": {
+        "slug": "tt",
+        "title": "TradeTracker - SaaS"
+      },
+      "description": "End-to-end product design of an AI-powered career platform built to help professionals stand out, apply smarter, and win more interviews. Covering resume optimization, LinkedIn enhancement, interview preparation, application tracking, and career analytics within a single cohesive system.",
+      "isLegacy": false,
+      "passwordProtected": true
+    },
+    {
       "id": "tt",
       "slug": "tt",
       "title": "TradeTracker - SaaS",
@@ -10,9 +961,9 @@
       "heroImage": "/assets/work/projects/trade-tracker/tt.png",
       "passwordProtected": true,
       "overview": {
-        "about": "TradeTracker is a leading affiliate marketing platform that connects advertisers with publishers to drive sales and revenue.",
+        "about": "<p>TradeTracker is a leading affiliate marketing platform that connects advertisers with publishers to drive sales and revenue.</p>",
         "challenge": "Design an intuitive and user-friendly dashboard that caters to the unique needs of diverse user groups.",
-        "problemStatement": "User who is a first time or existing customer need to be able to make and complete a deposit with ease."
+        "problemStatement": "<p>User who is a first time or existing customer need to be able to make and complete a deposit with ease.</p>"
       },
       "details": {
         "roles": [
@@ -42,7 +993,7 @@
               "cols": 12
             }
           ],
-          "content": "Issues Identified: Lack of contextual information, Overly technical language..."
+          "content": "<p>Issues Identified: Lack of contextual information, Overly technical language...</p>"
         },
         {
           "type": "gallery",
@@ -60,113 +1011,377 @@
         }
       ],
       "prevProject": {
-        "slug": "bp",
-        "title": "BetKing - Payments"
+        "slug": "cr",
+        "title": "CareerRoyale - AI Powered"
+      },
+      "nextProject": {
+        "slug": "mt",
+        "title": "Momentum"
+      },
+      "order": 4,
+      "isRawLegacy": true
+    },
+    {
+      "id": "proj-1776436055921",
+      "slug": "mt",
+      "title": "Momentum - A life operating system built with AI",
+      "subTitle": "",
+      "mainImage": "/assets/work/projects/mt/work_home.webp",
+      "heroImage": "/assets/work/projects/mt/1.webp",
+      "order": 5,
+      "overview": {
+        "about": "",
+        "challenge": ""
+      },
+      "details": {
+        "roles": [
+          "AI Product Designer + Builder"
+        ],
+        "designedFor": [
+          "Personal Project"
+        ],
+        "responsibilities": [],
+        "toolsImage": "",
+        "productName": "Momentum",
+        "platform": "Web (Mobile-responsive)",
+        "timeline": "2026",
+        "services": [
+          "AI Product Design",
+          "AI Integration",
+          "Lovable (AI Builder)",
+          "Solo Project",
+          "Design Systems",
+          "Productivity",
+          "Systems Thinking",
+          "UX/UI Design"
+        ]
+      },
+      "sections": [
+        {
+          "type": "metrics",
+          "title": "The Problem",
+          "content": "<p>For years I relied on Notion as my productivity operating system. I built templates for goal tracking, habit monitoring, weekly reviews, finance logs, and task management. Each template was carefully designed and individually functional.</p><p><br></p><p>But maintaining cohesion across all of them was a job in itself. Every new goal required rebuilding connections. Every weekly review meant manually pulling data from multiple sources. The system demanded more energy than the work it was supposed to support.</p>",
+          "items": [
+            {},
+            {},
+            {},
+            {}
+          ],
+          "insight": "<p>The deeper issue was not the tools. It was that Notion, despite being excellent for thinking, shifts the responsibility of system design onto the user permanently. You maintain the system instead of using it. There was no intelligence, no reflection loop, no awareness of whether the month was actually progressing.</p>",
+          "metrics": [
+            {
+              "description": "Separate Notion templates in active use",
+              "value": "5+"
+            },
+            {
+              "description": "Automated connections between them",
+              "value": "0"
+            },
+            {
+              "description": "System to replace them all",
+              "value": "1"
+            },
+            {}
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "Problem Statement",
+          "content": "",
+          "items": [
+            {
+              "title": "Fragmented tools with no connective intelligence ",
+              "label": "CHALLENGE ",
+              "content": "Goal tracking, habit monitoring, financial planning, task management, and reflective review were siloed across multiple tools. Maintaining them required constant manual effort, leaving no clear view of whether life was moving in the right direction."
+            },
+            {
+              "title": "Productivity tools optimise for doing, not for direction",
+              "content": "Most tools are excellent at helping you capture and complete tasks. Very few help you understand whether those tasks serve your longer-term goals, or help you learn from your own patterns over time.",
+              "label": "Insight"
+            }
+          ],
+          "insight": ""
+        },
+        {
+          "type": "text",
+          "title": "My Role - End-to-end designer and builder",
+          "content": "<p>This was a solo project. I held every role from user research through to shipped product. The project also served as a hands-on exploration of AI-assisted product building using Lovable, and became a live case study in using AI tools intentionally rather than reactively.</p>",
+          "items": [
+            {},
+            {},
+            {},
+            {}
+          ],
+          "insight": ""
+        },
+        {
+          "type": "showcase_grid",
+          "title": "",
+          "content": "",
+          "items": [
+            {
+              "image": "/assets/work/projects/mt/showcase-3-0/2a.webp",
+              "size": "half",
+              "label": "BEFORE",
+              "labelPosition": "top-center",
+              "labelStyle": "faded"
+            },
+            {
+              "image": "/assets/work/projects/mt/showcase-3-1/2b.webp",
+              "size": "half",
+              "label": "AFTER",
+              "labelPosition": "top-center",
+              "labelStyle": "faded"
+            }
+          ],
+          "insight": ""
+        },
+        {
+          "type": "cards",
+          "title": "Target Audience",
+          "content": "",
+          "items": [
+            {
+              "title": "Systems thinkers",
+              "content": "People who want structure without rigidity\u2014tracking goals, habits, and reflection in a single coherent system.",
+              "label": "PRIMARY"
+            },
+            {
+              "title": "Designers learning AI tools",
+              "content": "Product designers curious about using AI app builders (like Lovable) to go from concept to working product without traditional code.",
+              "label": "SECONDARY"
+            }
+          ],
+          "insight": ""
+        },
+        {
+          "type": "tags_grid",
+          "title": "Tools and Technologies",
+          "content": "<p>Every tool in this project was chosen to reduce friction and maximise learning signal. The goal was to get to a working, usable product as quickly as possible without sacrificing design quality.</p>",
+          "items": [
+            {
+              "title": "Lean stack, intentional choices",
+              "tags": "Lovable (AI App Builder), Figma, Claude (Design Thinking), ChatGPT (Research + Strategy), Notion (Legacy System / Reference), Google Fonts"
+            }
+          ],
+          "insight": "",
+          "footerInsight": "<p><strong>On using Lovable:</strong>&nbsp;Lovable was central to this project. It allowed me to move from concept to functional interface without writing code from scratch. My value-add was not in the build mechanics but in the product thinking, design decisions, prompt architecture, and iteration quality. This is the skill set AI product designers need now.</p>",
+          "isFooterHighlight": false,
+          "isHighlight": false
+        },
+        {
+          "type": "numbered_list",
+          "title": "Process",
+          "content": "",
+          "items": [
+            {
+              "label": "Discovery",
+              "title": "Mapping the fragmentation",
+              "content": "I audited my existing Notion setup across five active templates: goal tracker, habit log, finance tracker, weekly review, and task inbox. I mapped every manual action required to keep them aligned and identified where the highest friction occurred. The audit revealed that the weekly review alone required pulling data from four separate places."
+            },
+            {
+              "label": "Research",
+              "title": "Product philosophy",
+              "content": "Before designing a single screen, I wrote the principles that would govern every decision: direction over speed, reflection as a first-class feature, AI as insight not automation, calm over urgency, and monthly goals as the centre of gravity. This meant deliberately removing features that added capability but increased cognitive load."
+            },
+            {
+              "content": "Before designing a single screen, I wrote the principles that would govern every decision: direction over speed, reflection as a first-class feature, AI as insight not automation, calm over urgency, and monthly goals as the centre of gravity. This meant deliberately removing features that added capability but increased cognitive load.",
+              "title": "Product philosophy",
+              "label": "Strategy"
+            },
+            {
+              "label": "Architecture",
+              "title": "Information hierarchy",
+              "content": "The hierarchy was the product's most important design decision. Yearly goals define direction. Monthly goals define focus. Weekly plans define execution. Daily tasks serve goals. Habits support identity. Admin tasks stay lightweight. Making this hierarchy explicit throughout the UI changed how the app felt to use, from reactive to intentional."
+            },
+            {
+              "title": "Designing AI roles",
+              "content": "AI was not layered on top after the product was built. Each AI function was scoped against a specific user need. The result was four defined roles: pattern detection across behaviour data, weekly review summarisation, goal-to-task alignment checking, and proactive scope risk flagging. Anything outside those four roles was removed. AI that does too much becomes noise.",
+              "label": "AI Design"
+            },
+            {
+              "title": "Prompt engineering and rapid iteration with Lovable",
+              "content": "I used Lovable to build the functional interface through structured prompts. Each prompt was treated like a design brief: clear scope, defined aesthetic direction (calm, Apple-inspired, minimal), explicit interaction rules, and hierarchy constraints. Iteration was fast. The design thinking I applied before building meant far fewer pivots during build.",
+              "label": "BUILD"
+            },
+            {
+              "title": "Personal use as a live testing environment",
+              "content": "Because I was both designer and primary user, feedback loops were immediate. I tracked where I was reaching for workarounds, where I was skipping features, and where the system created moments of genuine clarity. This grounded iteration in real behaviour rather than assumed needs.",
+              "label": "TESTING"
+            }
+          ],
+          "insight": "",
+          "layoutFormat": "process_list"
+        },
+        {
+          "type": "text",
+          "title": "What was built and why",
+          "content": "",
+          "items": [
+            {},
+            {},
+            {},
+            {}
+          ],
+          "insight": ""
+        },
+        {
+          "type": "cards",
+          "title": "CORE FEATURES",
+          "content": "<p><br></p>",
+          "items": [
+            {
+              "title": "Goal Hierarchy",
+              "content": "Yearly to monthly to weekly to daily, with each level visible and connected throughout the product."
+            },
+            {
+              "title": "Task and Goal Linking",
+              "content": "Tasks can optionally link to monthly goals. Tasks without links are treated as admin, not priorities."
+            },
+            {
+              "title": "Habit Tracking",
+              "content": "Identity-based habits, not task-based. Designed around consistency, not streaks or pressure.\n"
+            },
+            {
+              "title": "Finance Module",
+              "content": "Monthly budgets and savings goals aligned with longer-term goals. Finance included in reviews."
+            },
+            {
+              "title": "Weekly and Monthly Reviews",
+              "content": "Auto-summarised reviews with AI analysis. Closes the loop between insight and next-week planning.",
+              "label": "",
+              "image": ""
+            },
+            {
+              "title": "AI Pattern Intelligence",
+              "content": "Detects behaviour patterns, flags goal risk, and surfaces insights from real usage data.",
+              "label": "",
+              "image": ""
+            }
+          ],
+          "insight": "",
+          "titleStyle": "label"
+        },
+        {
+          "type": "cards",
+          "title": "AI Design Decisions",
+          "content": "<p>The most important AI design decision was deciding what AI would&nbsp;not&nbsp;do. Removing AI from areas where it would add noise rather than clarity was as important as defining where it would add value.</p>",
+          "items": [
+            {
+              "title": "Insight and reflection",
+              "label": "AI DOES",
+              "content": "Summarises weekly and monthly progress. Detects patterns from real usage. Flags when a goal is at risk based on actual velocity. Suggests scope adjustments based on historical completion data."
+            },
+            {
+              "label": "AI DOES NOT",
+              "content": "No generic motivational prompts. No opaque scoring. No decisions made on the user's behalf. No features that increase cognitive load in the name of intelligence. Every insight is grounded in the user's actual data and explained clearly.",
+              "title": "Automation and pressure"
+            }
+          ],
+          "insight": ""
+        },
+        {
+          "type": "text",
+          "title": "",
+          "content": "<p><strong>\"AI that does too much becomes indistinguishable from noise. The discipline was in the removal.\"</strong></p>",
+          "items": [
+            {},
+            {},
+            {},
+            {}
+          ],
+          "insight": "",
+          "isHighlight": true
+        },
+        {
+          "type": "numbered_list",
+          "title": "Key Learnings",
+          "label": "",
+          "content": "",
+          "items": [
+            {
+              "title": "Flexibility is not always a feature",
+              "content": "Notion's infinite flexibility is powerful and also its biggest limitation at scale. When tools offer too much flexibility, the user becomes the system architect permanently. Good product design makes opinionated defaults that work for most people, most of the time."
+            },
+            {
+              "title": "AI is most valuable in reflection, not execution",
+              "content": "Automating execution is where most AI product designers start. But the highest leverage is in the reflection layer, surfacing patterns from past behaviour that are invisible to the user in the moment."
+            },
+            {
+              "title": "Prompt engineering is product design",
+              "content": "Designing the prompts for Lovable required the same thinking as designing a product brief. Scope, constraints, principles, hierarchy, and aesthetic direction all had to be specified. Vague prompts produce vague products. This is a transferable skill."
+            },
+            {
+              "title": "Time alignment is the real productivity problem",
+              "content": "Most productivity tools optimise for today. The actual problem is alignment across days, weeks, months, and years. Daily task completion means nothing if it is disconnected from longer-term direction."
+            },
+            {
+              "title": "Calm design drives adoption, not features",
+              "content": "Products that add urgency and pressure see short-term engagement and long-term abandonment. Calm visual hierarchy, realistic planning constraints, and soft success states create the conditions for sustainable use."
+            }
+          ],
+          "bulletStyle": "hidden"
+        },
+        {
+          "type": "cards",
+          "title": "Outcomes",
+          "content": "<p>The outcomes of this project were personal and professional. Personally, the system replaced five tools with one and reduced planning overhead significantly. Professionally, it validated a process for AI-assisted product building that I now apply across other work.</p>",
+          "items": [
+            {
+              "title": "Fewer tools",
+              "content": "Five Notion templates and two external apps replaced by one coherent system"
+            },
+            {
+              "content": "Weekly reviews became an insight ritual rather than a manual data-pulling exercise",
+              "title": "Smarter reflection"
+            },
+            {
+              "content": "A repeatable method for AI-assisted product building, from philosophy through to shipped feature",
+              "title": "Validated AI process"
+            },
+            {
+              "content": "Became a thought leadership case study shared across LinkedIn and TikTok, demonstrating AI design fluency",
+              "title": "Build-in-public angle"
+            }
+          ],
+          "insight": ""
+        },
+        {
+          "type": "text",
+          "title": "Reflection",
+          "content": "<p>Momentum matters less as a finished product and more as a demonstration of a design approach. The ability to move from problem definition to working AI-integrated product, with clear design thinking at every stage, is the skill that differentiates product designers in an AI-native environment.</p><p>This project was built entirely by one person using AI tools. The value was not in the code. It was in the decisions: what to build, what to cut, how to use AI with intent, and how to design for the human experience of using it every day.</p>",
+          "items": [
+            {},
+            {},
+            {},
+            {}
+          ],
+          "insight": ""
+        },
+        {
+          "type": "text",
+          "title": "",
+          "content": "<p><strong>\"The future of product design is not learning to code. It is learning to think clearly enough that the AI can build what you mean.\"</strong></p>",
+          "items": [
+            {},
+            {},
+            {},
+            {}
+          ],
+          "insight": "",
+          "isHighlight": true
+        }
+      ],
+      "prevProject": {
+        "slug": "tt",
+        "title": "TradeTracker - SaaS"
       },
       "nextProject": {
         "slug": "ub",
         "title": "Union Bank - Financials"
       },
-      "order": 1
-    },
-    {
-      "id": "bp",
-      "slug": "bp",
-      "title": "BetKing - Payments",
-      "isLegacy": true,
-      "subTitle": "Revamping the payment experience",
-      "mainImage": "/assets/work/home/row-1/1.png",
-      "heroImage": "/assets/work/projects/bk-payment/bk-deposit-landing.jpg",
-      "passwordProtected": true,
-      "overview": {
-        "about": "BetKing is a leading sports betting and gaming company in Africa, known for its extensive sportsbook, virtual games, and online casino offerings. It provides competitive odds, a user-friendly platform, and innovative features tailored to the African market.",
-        "challenge": "The pain points based on customer feedback and analytical tools insights were information overload, difficulty choosing a payment method, inconsistency & repetitive experience, leading to a high drop-off rate and long completion time.",
-        "problemStatement": "User who is a first time or existing customer need to be able to make and complete a deposit with ease and in due time because they need to be able to place their bet."
-      },
-      "details": {
-        "roles": [
-          "Senior Product Designer - Payment"
-        ],
-        "designedFor": [
-          "iOS / Android",
-          "Responsive Web"
-        ],
-        "responsibilities": [
-          "Survey",
-          "Data Analytics",
-          "Competitive analysis",
-          "Empathy Mapping",
-          "Customer Journey Mapping",
-          "Workshops",
-          "User flow",
-          "Payment Design System",
-          "Designs",
-          "Prototypes",
-          "User testing"
-        ],
-        "toolsImage": "/assets/utility/bk-mob-util.png"
-      },
-      "sections": [
-        {
-          "type": "text_block",
-          "title": "Context",
-          "content": "The goal is to revamp payments to meet customer's needs by defining the users' problems and finding creative solutions...",
-          "image": "/assets/work/projects/bk-payment/target.png"
-        },
-        {
-          "type": "gallery",
-          "title": "Survey",
-          "images": [
-            {
-              "src": "/assets/work/projects/bk-payment/user-survey.png",
-              "cols": 12
-            }
-          ],
-          "content": "All payment methods needed to be grouped into their respective categories..."
-        },
-        {
-          "type": "gallery",
-          "title": "Customer Journey Map",
-          "images": [
-            {
-              "src": "/assets/work/projects/bk-payment/paystack.png",
-              "cols": 12
-            }
-          ],
-          "content": "Major Insights: 59.90% conversion rate, 7mins completion time..."
-        },
-        {
-          "type": "gallery",
-          "title": "Designs",
-          "images": [
-            {
-              "src": "/assets/work/projects/bk-payment/dep-card-1.png",
-              "cols": 3
-            },
-            {
-              "src": "/assets/work/projects/bk-payment/dep-card-2.png",
-              "cols": 3
-            },
-            {
-              "src": "/assets/work/projects/bk-payment/dep-card-3.png",
-              "cols": 3
-            },
-            {
-              "src": "/assets/work/projects/bk-payment/dep-card-4.png",
-              "cols": 3
-            }
-          ]
-        }
-      ],
-      "prevProject": {
-        "slug": "",
-        "title": ""
-      },
-      "nextProject": {
-        "slug": "tt",
-        "title": "TradeTracker - SaaS"
-      },
-      "order": 2
+      "description": "A personal productivity system that consolidates goal tracking, habit building, and reflection into one AI-augmented tool\u2014replacing five disconnected Notion templates with a unified, intelligent workspace.",
+      "passwordProtected": true
     },
     {
       "id": "ub",
@@ -178,7 +1393,7 @@
       "heroImage": "/assets/work/projects/ub/1.png",
       "passwordProtected": true,
       "overview": {
-        "about": "Union Bank of Nigeria (UBN) was established in 1917 and is one of Nigeria's long-standing financial institutions.",
+        "about": "<p>Union Bank of Nigeria (UBN) was established in 1917 and is one of Nigeria's long-standing financial institutions.</p>",
         "challenge": "The current banking app lacks intuitive navigation and fails to provide a seamless user experience."
       },
       "details": {
@@ -211,7 +1426,7 @@
               "cols": 12
             }
           ],
-          "content": "The customer journey map for transferring money highlights several issues..."
+          "content": "<p>The customer journey map for transferring money highlights several issues...</p>"
         },
         {
           "type": "gallery",
@@ -229,14 +1444,15 @@
         }
       ],
       "prevProject": {
-        "slug": "tt",
-        "title": "TradeTracker - SaaS"
+        "slug": "mt",
+        "title": "Momentum"
       },
       "nextProject": {
         "slug": "ds",
         "title": "Design System"
       },
-      "order": 3
+      "order": 6,
+      "isRawLegacy": true
     },
     {
       "id": "ds",
@@ -247,9 +1463,9 @@
       "mainImage": "/assets/work/home/row-2/1.png",
       "heroImage": "/assets/work/projects/ds/1.png",
       "overview": {
-        "about": "Light's Design System and Component Library is an open-source project I created to provide designers with a robust foundation.",
-        "challenge": "Designers often struggle with having a consistent and high-quality foundation to start their projects.",
-        "problemStatement": "How might we provide designers with an open-source, adaptable design system?"
+        "about": "<p>Light's Design System and Component Library is an open-source project I created to provide designers with a robust foundation.</p>",
+        "challenge": "<p>Designers often struggle with having a consistent and high-quality foundation to start their projects.</p>",
+        "problemStatement": "<p>How might we provide designers with an open-source, adaptable design system?</p>"
       },
       "details": {
         "roles": [
@@ -295,62 +1511,9 @@
         "slug": "ss",
         "title": "6th Street - E-commerce"
       },
-      "order": 4
-    },
-    {
-      "id": "wz",
-      "slug": "wz",
-      "title": "Woozeee - E-commerce",
-      "isLegacy": true,
-      "subTitle": "E-commerce UI Design",
-      "mainImage": "/assets/work/home/row-3/2.png",
-      "heroImage": "/assets/work/projects/woozeee-ecom/1.png",
-      "overview": {
-        "about": "Woozeee Click N' Shop is the number one marketplace for smart people worldwide.",
-        "challenge": "To enhance the user experience on an e-commerce website by making it easier for users to compare prices.",
-        "problemStatement": "Users on the e-commerce website are finding it difficult to quickly and easily compare prices."
-      },
-      "details": {
-        "roles": [
-          "Lead UI Designer"
-        ],
-        "designedFor": [
-          "Web and Mobile",
-          "Responsive website"
-        ],
-        "responsibilities": [
-          "Design System",
-          "Visual Design for mobile",
-          "Visual Design for web",
-          "Admin dashboard design"
-        ],
-        "toolsImage": "/assets/utility/wz-util.png"
-      },
-      "sections": [
-        {
-          "type": "gallery",
-          "title": "Web Designs",
-          "images": [
-            {
-              "src": "/assets/work/projects/woozeee-ecom/2.png",
-              "cols": 6
-            },
-            {
-              "src": "/assets/work/projects/woozeee-ecom/3.png",
-              "cols": 6
-            }
-          ]
-        }
-      ],
-      "prevProject": {
-        "slug": "ss",
-        "title": "6th Street - E-commerce"
-      },
-      "nextProject": {
-        "slug": "",
-        "title": ""
-      },
-      "order": 5
+      "order": 7,
+      "passwordProtected": true,
+      "isRawLegacy": true
     },
     {
       "id": "ss",
@@ -417,145 +1580,65 @@
         "slug": "wz",
         "title": "Woozeee - E-commerce"
       },
-      "order": 6
+      "order": 8,
+      "isRawLegacy": true
     },
     {
-      "id": "proj-1776375400963",
-      "slug": "cr",
-      "title": "CareerRoyale - AI Powered Career Platform",
-      "subTitle": "",
-      "mainImage": "/assets/work/projects/cr/1.webp",
-      "heroImage": "/assets/work/projects/cr/1.webp",
-      "order": 7,
+      "id": "wz",
+      "slug": "wz",
+      "title": "Woozeee - E-commerce",
+      "isLegacy": true,
+      "subTitle": "E-commerce UI Design",
+      "mainImage": "/assets/work/home/row-3/2.png",
+      "heroImage": "/assets/work/projects/woozeee-ecom/1.png",
       "overview": {
-        "about": "<p><br></p>",
-        "challenge": ""
+        "about": "<p>Woozeee Click N' Shop is the number one marketplace for smart people worldwide.</p>",
+        "challenge": "<p>To enhance the user experience on an e-commerce website by making it easier for users to compare prices.</p>",
+        "problemStatement": "<p>Users on the e-commerce website are finding it difficult to quickly and easily compare prices.</p>"
       },
       "details": {
         "roles": [
-          "Lead Product Design + Strategy"
+          "Lead UI Designer"
         ],
         "designedFor": [
-          "Co-founder / Product Designer"
+          "Web and Mobile",
+          "Responsive website"
         ],
         "responsibilities": [
-          ""
+          "Design System",
+          "Visual Design for mobile",
+          "Visual Design for web",
+          "Admin dashboard design"
         ],
-        "toolsImage": "",
-        "platform": "Web SaaS",
-        "timeline": "2025 to Present",
-        "services": [
-          "Product strategy",
-          "UX research",
-          "UI design",
-          "AI integration",
-          "Design Systems",
-          "Growth Design",
-          "AI Design"
-        ],
-        "productName": "CareerRoyale"
+        "toolsImage": "/assets/utility/wz-util.png"
       },
       "sections": [
         {
-          "type": "metrics",
-          "title": "Scale and Context",
-          "metrics": [
+          "type": "gallery",
+          "title": "Web Designs",
+          "images": [
             {
-              "value": "600+",
-              "label": "Candidates submit this many applications before landing interviews"
+              "src": "/assets/work/projects/woozeee-ecom/2.png",
+              "cols": 6
             },
             {
-              "value": "~100",
-              "label": "Users acquired entirely through organic content, zero ad spend"
-            },
-            {
-              "value": "Every job search",
-              "label": "Reductions happen every day in every store, making frequency of use high"
-            },
-            {
-              "label": "Of the estate migrated to Code Control and Bluetooth printing after RSS switch-off",
-              "value": "100%"
+              "src": "/assets/work/projects/woozeee-ecom/3.png",
+              "cols": 6
             }
-          ],
-          "insight": "<p>Why this matters here: Most job seekers are not failing because of a lack of effort. They are failing because the hiring system rewards positioning, clarity, and consistency—not raw talent. CareerRoyale addresses this structural problem by giving professionals the tools to present their value in a way that ATS systems and hiring managers actually respond to.</p>",
-          "isHighlight": false
-        },
-        {
-          "type": "text",
-          "title": "Scale and Context",
-          "metrics": [
-            {},
-            {},
-            {},
-            {}
-          ],
-          "insight": "",
-          "content": "<p><strong>Why this matters here:</strong> Most job seekers are not failing because of a lack of effort. They are failing because the hiring system rewards positioning, clarity, and consistency—not raw talent. CareerRoyale addresses this structural problem by giving professionals the tools to present their value in a way that ATS systems and hiring managers actually respond to.</p>",
-          "isHighlight": true
-        },
-        {
-          "type": "text",
-          "title": "The Challenge",
-          "metrics": [
-            {},
-            {},
-            {},
-            {}
-          ],
-          "insight": "",
-          "content": "<p>The job search process is structurally broken for most candidates. People spend hours tailoring applications, submitting resumes, and never hearing back. Candidates were doing all the right things—but in isolation. A resume builder here. A LinkedIn rewrite there. A spreadsheet to track applications. Random AI tools. Interview prep on YouTube. None of it connected. The market was saturated with single-purpose tools that addressed fragments of the problem. What was missing was a unified, intelligent system built around the full job search journey.</p>",
-          "isHighlight": true
-        },
-        {
-          "type": "text",
-          "title": "",
-          "metrics": [
-            {},
-            {},
-            {},
-            {}
-          ],
-          "insight": "",
-          "content": "<p>The root cause is almost never a lack of skill or experience. The core problem is visibility and positioning. ATS rejection is invisible—most candidates do not know their resume is being filtered before a human ever sees it. Job seekers receive no meaningful feedback from employers on why their applications fail, leaving them unable to improve systematically.</p><p><br></p><p>Interview preparation is scattered and unstructured, leading to poor performance despite adequate experience. Application management is chaotic. Without tracking, candidates lose visibility of their pipeline and cannot identify what is and is not working. International candidates and career changers face extra friction when translating their experience into recruiter-friendly language.</p>"
-        },
-        {
-          "type": "cards",
-          "title": "Target Audience",
-          "content": "<p>CareerRoyale was designed primarily for professionals who already have relevant experience but are struggling to communicate and position it effectively within modern hiring systems.</p>",
-          "items": [
-            {
-              "label": "PRIMARY",
-              "title": "Early to mid-career professionals",
-              "content": "Actively job searching but not getting the response rate their experience warrants. Motivated and consistent, but lacking a structured system."
-            },
-            {
-              "label": "PRIMARY",
-              "title": "International candidates",
-              "content": "Professionals moving countries or markets who need help translating their experience into language and format that local recruiters understand."
-            },
-            {
-              "label": "SECONDARY",
-              "title": "Career changers",
-              "content": "People moving industries who need to reframe transferable skills compellingly and position themselves credibly in a new context."
-            },
-            {
-              "label": "SECONDARY",
-              "title": "Ambitious recent graduates",
-              "content": "New to the workforce and navigating competitive graduate hiring. Need structure, credibility-building, and clear next steps."
-            }
-          ],
-          "insight": ""
+          ]
         }
       ],
       "prevProject": {
-        "slug": "",
-        "title": ""
+        "slug": "ss",
+        "title": "6th Street - E-commerce"
       },
       "nextProject": {
-        "slug": "",
-        "title": ""
+        "slug": "sb",
+        "title": "Sainsbury\u2019s Code Control"
       },
-      "description": "End-to-end product design of an AI-powered career platform built to help professionals stand out, apply smarter, and win more interviews. Covering resume optimization, LinkedIn enhancement, interview preparation, application tracking, and career analytics within a single cohesive system."
+      "order": 9,
+      "passwordProtected": true,
+      "isRawLegacy": true
     }
   ]
 }

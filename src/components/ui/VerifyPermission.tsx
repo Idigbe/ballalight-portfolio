@@ -32,7 +32,7 @@ export default function VerifyPermission({ onVerify }: { onVerify: (data: { veri
 
     return (
         <div className="flex flex-col w-full">
-            <div className="flex-grow border-t border-gray-400 mb-5 mt-5 md:mb-10" ></div>
+            <div className="flex-grow border-t border-gray-400 mb-2 mt-5 md:mb-5" ></div>
             <div className=' pt-2 px-0 flex justify-center md:justify-start' >
                 <h4 className='project-title md:project-title-md'>Case Studies</h4>
             </div>
@@ -70,7 +70,7 @@ export default function VerifyPermission({ onVerify }: { onVerify: (data: { veri
                 </Button>
 
             </div>
-            <div className="flex-grow border-t border-gray-400  mb-5 mt-10"></div>
+            <div className="flex-grow border-t border-gray-400  mb-4 mt-5"></div>
         </div>
     )
 }

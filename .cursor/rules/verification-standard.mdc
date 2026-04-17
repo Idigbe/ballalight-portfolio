@@ -1,0 +1,24 @@
+---
+description: MANDATORY RULE: Structural Integrity & Mechanical Verification
+globs: **/*.{tsx,ts,jsx,js}
+---
+
+# Structural Integrity & Mechanical Verification Rule
+
+This rule ensures that the AI developer NEVER leaves a file in an inconsistent state, specifically focusing on syntax correctness and structural tag mapping.
+
+## 🔴 CRITICAL MANDATE
+After EVERY modification to a file (especially React components), the AI MUST perform a **Mechanical Verification Audit**.
+
+## Verification Workflow
+1. **Structural Trace**: Perform a manual or automated count of all opening vs. closing tags (e.g., `<div>` vs `</div>`).
+2. **Nesting Check**: Ensure that every component's `return` block is perfectly balanced, especially after slicing or moving code.
+3. **Logic Flow**: Verify that closing braces `}` and parentheses `)` for `map`, `filter`, and conditional rendering are correctly paired.
+4. **Full File Scan**: If there is ANY doubt about line offsets or tag mismatches, the AI MUST use `view_file` on the ENTIRE file to trace the hierarchy from root to footer.
+
+## High-Density UI Rules (Figma Parity)
+- Verify that grid containers (`grid-cols-12`) have the correct children and spans.
+- Ensure that modular rendering loops (like `sections.map`) are contained within their intended layout wrappers.
+
+## Declaration of Success
+Do not claim a task is "Fixed" or "Verified" until this specific mechanical trace has been completed. If a structural error is found, it must be corrected IMMEDIATELY before reporting completion to the user.

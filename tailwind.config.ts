@@ -52,7 +52,7 @@ const config: Config = withMT({
         },
       },
       fontFamily: {
-        sans: ['Bricolage_Grotesque', 'sans-serif'],
+        sans: ["var(--font-bricolage)", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",

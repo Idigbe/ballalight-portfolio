@@ -1,0 +1,27 @@
+---
+description: Mandatory checklist for verifying project completion and production readiness.
+globs: **/*
+---
+
+# Production Readiness Checklist
+
+Before marking any task as "done," the AI assistant MUST complete and confirm the following steps:
+
+## 1. Syntax & Linting Check
+- [ ] No unused imports (e.g., `cookies`, `useState` not being used).
+- [ ] No undeclared or "any" types where specific types are required.
+- [ ] No console logs or debug statements remaining in production-facing code.
+- [ ] Properly escaped characters (e.g., `'` vs `&apos;`) in TSX files.
+
+## 2. Functional Verification
+- [ ] **API Logic**: Confirm all `POST/PUT` routes have proper error handling and return structured JSON.
+- [ ] **UI/UX**: Verify responsive classes are applied and modern styling rules (Design System) are followed.
+- [ ] **Environment**: Ensure logic handles both `development` and `production` (e.g., filesystem vs GitHub API).
+
+## 3. Build Validation
+- [ ] Run `npm build` or equivalent to ensure the static export can actually complete without errors.
+- [ ] Verify that new dependencies are correctly registered in `package.json`.
+
+## 4. Documentation
+- [ ] Final summary contains specific file paths and clear next steps for the user.
+- [ ] Walkthrough artifact is updated with the latest visual and functional changes.

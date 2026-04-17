@@ -24,6 +24,7 @@
     "react-hook-form": "^7.52.2",
     "react-intersection-observer": "^9.13.0",
     "react-player": "3.0.0-canary.0",
+    "react-quill": "^2.0.0",
     "react-toastify": "^10.0.5",
     "sharp": "^0.33.5",
     "tailwind-merge": "^2.2.1",

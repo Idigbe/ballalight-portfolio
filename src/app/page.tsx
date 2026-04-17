@@ -51,7 +51,7 @@ const Home = () => {
             </motion.div>
             <p className='font-normal text-base md:text-xl mb-1  md:px-1' >aka Light Design</p>
             <p className='font-normal text-base md:text-xl my-3  md:px-1'>
-              I am a Product Designer based in <span className='font-thin text-gray-300 line-through'>Lagos, Dubai </span>London, with over 7 years of expertise in creating innovative user-centered & data-driven designs for both Mobile and Web.
+              I am a Product Designer based in <span className='font-thin text-gray-300 line-through'>Lagos, Dubai </span>London, with over 8 years of expertise in creating innovative user-centered & data-driven designs for both Mobile and Web.
             </p>
             <div className="flex-none md:pt-10 md:px-1">
               <span className="dark-outline  md:dark-outline-md mt-6 " >
